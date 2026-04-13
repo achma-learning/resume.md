@@ -1,0 +1,1 @@
+use claude or other ai to make decision tree path like here based on [youtube screenshot](https://www.youtube.com/live/tMbiK-o0FjU&t=550)
