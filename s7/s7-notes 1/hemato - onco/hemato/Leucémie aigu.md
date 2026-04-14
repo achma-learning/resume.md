@@ -1,0 +1,1 @@
+exces de blaste > 20% + blocage de maturation
