@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "98070fdcb4aca8a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ace1d5097cfefd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c35e2eac5a95a232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ped-chir/shpylore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "shpylore"
+            }
+          },
+          {
+            "id": "1e3b797e6f53dc41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ped-chir/+ Sténose hypertrophique du pylore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "+ Sténose hypertrophique du pylore"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8e86889687ae487",
+    "type": "split",
+    "children": [
+      {
+        "id": "00d8eade6a40a34c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c08a5603a99df314",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "44e148e7f3400a4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4a0c75e9fd5905ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "180d200b26e365c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "314899a5868e9807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ab97f0cb4be5bdb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ped-chir/+ Sténose hypertrophique du pylore.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for + Sténose hypertrophique du pylore"
+            }
+          },
+          {
+            "id": "c055357c8c51d1aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ped-chir/+ Sténose hypertrophique du pylore.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from + Sténose hypertrophique du pylore"
+            }
+          },
+          {
+            "id": "6206bc1eed431dc2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5ca604789eb08a62",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f30749aeb83b9b8c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ped-chir/+ Sténose hypertrophique du pylore.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of + Sténose hypertrophique du pylore"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1e3b797e6f53dc41",
+  "lastOpenFiles": [
+    "ped-chir/shpylore.md",
+    "ped-chir/+ Sténose hypertrophique du pylore.md",
+    "02 - 02- Sténose hypertrophique du pylore - Pr. FOURAIJI.mp3.md",
+    "ped-chir/Invagination intestinale.md",
+    "ped-chir/+ Anomalie de migration et de position testiculaire.md",
+    "+++topo-plan.md",
+    "transcribe/ped-chir/06 - 01- LES INFECTIONS OSTÉO-ARTICULAIRES CHEZ L’ENFANT - Pr. AGHOUTANE.md",
+    "transcribe/ped-chir/05 - 05- LES MASSES ABDOMINO PELVIENNES - Pr. KAMILI.md",
+    "transcribe/ped-chir/04 - 04- PATHOLOGIE DU CANAL PÉRITONÉO-VAGINAL (CPV) - Pr. KAMILI.md",
+    "transcribe/ped-chir/03 - 03- TORSION DU CORDON SPERMATIQUE - Pr. KAMILI.md",
+    "transcribe/ped-chir/02 - 02- Sténose hypertrophique du pylore - Pr. FOURAIJI.md",
+    "transcribe/ped-chir/01 - 01- INVAGINATION INTESTINALE AIGUË DU NOURRISSON - Pr. KAMILI.md",
+    "transcribe/ped-chir/12 - 02- PROCTOLOGIE PÉDIATRIQUE - Pr. FOURAIJI.md",
+    "transcribe/ped-chir/11 - FMPM MOOCs - Déformation rachidienne - Pr El Fezzazi.md",
+    "transcribe/ped-chir/10 - FMPM MOOCs - La maladie luxante chez l'enfant - Pr El Fezzazi.md",
+    "transcribe/ped-chir/09 - FMPM MOOCs - Boiteries de l'enfant - Pr. EL Fezzazi.md",
+    "transcribe/ped-chir/08 - 02- Tumeurs Osseuses Malignes de l’enfant - Pr. Salama.md",
+    "transcribe/ped-chir/07 - 02- Particularités des fractures chez l’enfant - Pr. AGHOUTANE.md",
+    "ped-chir/Atresie de l’oesophage.md",
+    "ped-chir/Les particularités des fractures chez l’enfant.md",
+    "ped-chir/Uropathies de l’enfant.md",
+    "ped-chir/Tumeurs osseuses malignes de l’enfant.md",
+    "ped-chir/Torsion du cordon spermatique .md",
+    "ped-chir/Proctologie pédiatrique .md",
+    "ped-chir/Pied du nouveau né.md",
+    "ped-chir/Pathologie du CPV.md",
+    "s7-notes 1/neuro/neurologie",
+    "s7-notes 1/neuro/neurochir",
+    "s7-notes 1/neuro",
+    "s7-notes 1/Maladies de l'enfant/pediatrie",
+    "s7-notes 1/Maladies de l'enfant/neonat",
+    "s7-notes 1/Maladies de l'enfant/chir ped",
+    "s7-notes 1/Maladies de l'enfant",
+    "s7-notes 1/hemato - onco/hemato/anemie mindmap.canvas",
+    "s7-notes 1/hemato - onco/hemato/0. hemato mindmap.canvas",
+    "s7-notes 1/hemato - onco/onco",
+    "s7-notes 1/hemato - onco/hemato",
+    "s7-notes 1/hemato - onco",
+    "s7-notes 1/Pasted image 20251216143414.png",
+    "s7-notes 1/Pasted image 20251216143251.png",
+    "s7-notes 1/Pasted image 20251216143245.png",
+    "s7-notes 1/Pasted image 20251215210448.png",
+    "s7-notes 1/Pasted image 20251215205529.png",
+    "s7-notes 1/Pasted image 20251215203135.png",
+    "s7-notes 1/Pasted image 20251215203133.png",
+    "s7-notes 1/Pasted image 20251215203132.png",
+    "s7-notes 1/Pasted image 20251126232706.png"
+  ]
+}

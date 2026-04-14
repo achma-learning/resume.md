@@ -1,0 +1,294 @@
+{
+  "main": {
+    "id": "1b83f98d3b69c088",
+    "type": "split",
+    "children": [
+      {
+        "id": "423581f8fbd72aa9",
+        "type": "tabs",
+        "dimension": 79.7979797979798,
+        "children": [
+          {
+            "id": "85b472b3396a3a5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "S8-GENETIQUE-IMMUNOPATH-MALADIE_SYSTEM/Les modes de transmission des maladies héréditaires.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les modes de transmission des maladies héréditaires"
+            }
+          },
+          {
+            "id": "7336f28025691200",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
+          },
+          {
+            "id": "4bec59405c27eacc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "S8-traumato/1. traumatismes du bassin et la hanche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. traumatismes du bassin et la hanche"
+            }
+          },
+          {
+            "id": "f4fd2f81bbc1ad0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anapath/Pr.Rais/1. Tumeur hepatocytiare.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Tumeur hepatocytiare"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "446c0c3061cc6cce",
+        "type": "tabs",
+        "dimension": 20.2020202020202,
+        "children": [
+          {
+            "id": "8e6c0d76af6539d0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b3c9adba5c2bd614",
+    "type": "split",
+    "children": [
+      {
+        "id": "47746cb64d5ae758",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed1fe158f1dbb583",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f131f20764f779ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "88910232bd548ea4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82ee2f5821741d9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0769ef1ac47d83a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9767b6012b47c38a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Les modes de transmission des maladies héréditaires.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Les modes de transmission des maladies héréditaires"
+            }
+          },
+          {
+            "id": "cb9dcf72c85743aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Les modes de transmission des maladies héréditaires.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Les modes de transmission des maladies héréditaires"
+            }
+          },
+          {
+            "id": "98bf06ddb90acbfd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8f641d850da93859",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "68042055e88bdaf5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Les modes de transmission des maladies héréditaires.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Les modes de transmission des maladies héréditaires"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ed1fe158f1dbb583",
+  "lastOpenFiles": [
+    "S8-MPR/20260413_161030.jpg",
+    "S8-MPR/20260413_161355.jpg",
+    "S8-MPR/20260413_162618.jpg",
+    "S8-MPR/20260413_161031.jpg",
+    "S8-MPR/20260413_171227.jpg",
+    "Pasted image 20260402171933.png",
+    "Pasted image 20260402171921.png",
+    "S8-traumato/Pasted image 20260402171842.png",
+    "S8-traumato/1. traumatismes du bassin et la hanche.md",
+    "Pasted image 20260402171856.png",
+    "ostéosynthèse interne![[Pasted image 20260402171745.png.md",
+    "Pasted image 20260402171745.png",
+    "Untitled.base",
+    "create a link.md",
+    "Welcome.md",
+    "Pasted image 20260402161704.png",
+    "définition.md",
+    "S8-GENETIQUE-IMMUNOPATH-MALADIE_SYSTEM/Les modes de transmission des maladies héréditaires.md",
+    "Anapath/Pr.Rais/1. Tumeur hepatocytiare.md",
+    "Anapath/Pr.Rais/Cancer du sein.md",
+    "Anapath/Pr.Rais/Démarche diagnostique devant une métastase hépatique d’un primitif inconnu.md",
+    "Anapath/Pr.Rharrassi/Tumeurs broncho-pulmonaires.md",
+    "Anapath/Pr.Rharrassi/Mastopathies bénignes.md",
+    "Anapath/Pr.Azami/Pathologies de l'oesophage.md",
+    "Anapath/Pr.Azami/Tumeurs de l'estomac.md",
+    "Anapath/Pr.Azami/Tumeurs de la vessie.md",
+    "Anapath/Pr.Azami/Cancer du prostate.md",
+    "Anapath/Pr.Azami/Cancer du testicule.md",
+    "Anapath/Pr.Azami/Tumeurs du rein.md",
+    "Anapath/Pr.Azami/Cancer du col utérin.md",
+    "Anapath/Pr.Rachidi/Polypes et polyposes digestives.md",
+    "Anapath/Pr.Rachidi/Cancers colo-rectales.md",
+    "Anapath/Pr.Rachidi/Comment remplir une fiche de demande d’examen anapath.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "S8-MPR",
+    "S8-rhumato",
+    "Anapath/Pr.Rachidi/Lecture critique d'un compte rendu Anatomopathologie.md",
+    "Anapath/Pr.Rais/Tumeur de l'ovaire.md",
+    "Anapath/Pr.Azami",
+    "Anapath/Pr.Rharrassi",
+    "Anapath/Pr.Rachidi",
+    "Anapath/Pr.Rais",
+    "S8-traumato",
+    "S8-GENETIQUE-IMMUNOPATH-MALADIE_SYSTEM",
+    "Anapath"
+  ]
+}
