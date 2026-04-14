@@ -1,375 +1,204 @@
 ---
 type: topo-plan
-titre: "{{title}}"
-date: "{{date}}"
-module: "[[]]"
+titre: "Occlusion Néonatale"
+date: "2026-04-14"
+module: "[[Maladies de l'enfant]]"
 matiere: Chirurgie pédiatrique
 enseignant: Pr. Oulad Saiad
-specialite: "[[]]"
+specialite: "[[Chirurgie Pédiatrique]]"
 semestre: S8
 annee: 2025-2026
-duree_presentation: 15 min (~30 diapos)
-audio: "[[]]"
-source_pdf: "[[]]"
 statut: brouillon
 revision: 0
-prochaine_revision:
-urgence: false
-urgence_type: ""
+urgence: true
+urgence_type: "Urgence chirurgicale néonatale"
 tags:
   - topo
-  - a-traiter
-aliases: []
+  - chirurgie-pédiatrique
+  - néonatologie
+  - occlusion
+  - urgence
 cssclasses:
   - medical-note
-created: "{{date}}T{{time}}"
-modified: "{{date}}T{{time}}"
+created: "2026-04-14T10:00"
+modified: "2026-04-14T10:00"
 ---
 
-# {{title}}
+# Occlusion Néonatale
 
 > [!info] Métadonnées
-> **Module** : [[]] · **Spécialité** : [[]]
-> **Enseignant** : Pr.  · **Date** : {{date}}
-> **Durée** : ~15 min · **Diapos** : ~30
+> **Module** : [[Maladies de l'enfant]] · **Enseignant** : Pr. Oulad Saiad
 > **Statut** : 🔴 Brouillon → 🟡 Révisé → 🟢 Maîtrisé
 
 ---
 
-## I. Introduction — Cas clinique d'accroche
+## I. Introduction
 
-> [!example] Vignette clinique
-> *Patient de __ ans, __(sexe), consulte pour __. Antécédents : __.*
-> *Que suspectez-vous ? Quelle est votre démarche ?*
+> [!abstract] Objectifs pédagogiques
+> 1. Reconnaître le tableau clinique d'une occlusion néonatale
+> 2. Orienter le diagnostic étiologique selon la topographie
+> 3. Connaître les principes de prise en charge chirurgicale
 
-- **Objectif pédagogique** : poser le problème, capter l'attention
-- Réponse → voir [XVI. Cas clinique — Réponse](#XVI.%20Cas%20clinique%20—%20Réponse)
-
----
-
-## II. Rappels
-
-### A. Anatomique
-
-- 
-
-### B. Physiologique
-
-- 
-
-### C. Historique *(situer l'état actuel des connaissances)*
-
-- 
+- **Définition** : Arrêt du transit intestinal chez le nouveau-né (< 28 jours), d'origine obstructive ou fonctionnelle, constituant une urgence chirurgicale néonatale
+- **Urgence** : Mise en jeu du pronostic vital (péritonite, nécrose intestinale, choc)
+- **Principe** : Tout vomissement bilieux chez le nouveau-né = occlusion jusqu'à preuve du contraire
 
 ---
 
-## III. Définition
+## II. Rappels embryologiques
 
-> [!important] Définition
-> *Formuler en 1-2 phrases claires.*
-> 
+- L'intestin primitif se développe à partir de la **5ème semaine** de gestation
+- Rotation intestinale en 3 temps autour de l'artère mésentérique supérieure (total = 270° dans le sens antihoraire)
+- Toute anomalie de cette rotation → malrotation → volvulus possible
 
-- **Type** : *(médicale / chirurgicale / mixte)*
-- **Urgence** : *(absolue / relative / non urgente)*
-- **Classification OMS / internationale** : 
+---
+
+## III. Définition et classification
+
+> [!important] Classification anatomique des occlusions néonatales
+
+| Topographie | Étiologies principales |
+|-------------|----------------------|
+| **Haute** (au-dessus de la papille de Vater) | Atrésie duodénale, Volvulus du grêle sur malrotation |
+| **Basse** (en dessous de la papille de Vater) | Atrésie du grêle, Atrésie colique, Maladie de Hirschsprung, Iléus méconial |
 
 ---
 
 ## IV. Épidémiologie
 
-| Paramètre | Donnée |
-|-----------|--------|
-| Prévalence |       |
-| Incidence  |       |
-| Sex-ratio  |       |
-| Âge moyen  |       |
-| Mortalité  |       |
-| Tendance   |       |
-
-- **Facteurs de risque** :
-  - 
-  - 
-
-> [!tip] Support visuel
-> Insérer graphique / courbe épidémiologique.
-> `![[graph_epidemio_{{title}}.png]]`
+- Incidence globale : 1/2000 naissances (toutes causes confondues)
+- Atrésies = 1ère cause d'occlusion néonatale chirurgicale
 
 ---
 
 ## V. Physiopathologie
 
-> [!tip] Schéma physiopathologique
-> `![[schema_physiopath_{{title}}.excalidraw]]`
-
-**Cascade physiopathologique :**
-
-1. **Événement initial** : 
-2. **Mécanisme** : 
-3. **Conséquence tissulaire** : 
-4. **Traduction clinique** : 
+**Mécanismes communs :**
+- Obstruction mécanique → distension intestinale en amont → stase → nécrose de paroi → péritonite
 
 ---
 
-## VI. Clinique — Signes cliniques / Sémiologie
+## VI. Clinique — TDD : Tableau d'Occlusion Néonatale Haute
 
-### A. Circonstances de découverte
+### A. Triade clinique caractéristique
 
-- 
+> [!danger] Triade = Vomissements bilieux + Distension + Arrêt du transit
 
-### B. Signes fonctionnels *(interrogatoire)*
+### B. Signes fonctionnels
 
-- 
+- **Vomissements bilieux** (bile verte) = signe cardinal → toujours pathologique chez le nouveau-né
+- **Absence d'émission de méconium** > 24–48h
+- Distension abdominale (plus marquée si occlusion basse)
 
-### C. Signes physiques *(examen clinique)*
+### C. Signes physiques
 
-| Temps | Résultat |
-|-------|----------|
-| Inspection   |   |
-| Palpation    |   |
-| Percussion   |   |
-| Auscultation |   |
+| Signe | Occlusion haute | Occlusion basse |
+|-------|----------------|----------------|
+| Vomissements | Précoces, bilieux | Plus tardifs |
+| Distension | Épigastrique | Généralisée |
+| Méconium | Parfois présent | Absent |
+| Fond rectal | Normal | Vide (gant de caoutchouc vide) |
 
-### D. Signes généraux
+### D. Particularités selon l'étiologie
 
-- **Constantes** : PA = , FC = , T° = , FR = , SpO2 = 
+**Atrésie duodénale** :
+- Aspect en "double bulle" à l'ASP (poche gastrique + 1ère anse duodénale)
+- Association avec Trisomie 21 dans 30 % des cas
+
+**Volvulus du grêle sur malrotation** :
+- Urgence extrême (nécrose en quelques heures)
+- Vomissements bilieux chez un nourrisson d'aspect initialement normal
+- Douleur abdominale intense
+
+**Iléus méconial** :
+- Obstruction par méconium épais (méconium anormalement visqueux)
+- Penser à **mucoviscidose** (mutation CFTR → mucoviscidose dans 90 % des cas)
+
+**Maladie de Hirschsprung** → voir note dédiée
 
 ---
 
 ## VII. Paraclinique
 
-### A. Biologie
+### A. Radiographie de l'abdomen sans préparation (ASP) — 1ère intention
 
-| Examen | Résultat attendu | Intérêt |
-|--------|-------------------|---------|
-|        |                   |         |
+- Montre les niveaux hydroaériques
+- **Atrésie duodénale** : "Double bulle" (deux niveaux hydro-aériques) + absence d'air en aval
+- **Atrésie du grêle** : Multiples niveaux hydro-aériques
+- Microcôlon sur lavement opaque → atrésie colique ou iléus méconial
 
-### B. Imagerie
+### B. Lavement opaque (prudent, baryum ou hydrosoluble)
 
-| Examen | Signe caractéristique | Sensibilité / Spécificité |
-|--------|----------------------|---------------------------|
-|        |                      |                           |
+- Précise le siège de l'obstruction
+- Thérapeutique dans l'iléus méconial (lavement hypertonique)
 
-### C. Examens spécialisés
+### C. Échographie abdominale
 
-- 
-
-> [!warning] Examen clé
-> 
+- Recherche malrotation (rapport artère mésentérique supérieure et veine)
+- Volvulus : "whirlpool sign"
 
 ---
 
-## VIII. Diagnostic positif
+## VIII. Traitement
 
-> [!abstract] Synthèse diagnostique
-> *Le diagnostic est __(clinique / clinico-biologique / clinico-radiologique / histologique)__.*
+### Principes généraux (avant chirurgie)
 
-- **Critères cliniques** : 
-- **Critères paracliniques** : 
-- **Critères diagnostiques formels** *(si applicable)* :
-  - 
+1. **Réanimation hydro-électrolytique** : VVP, correction déshydratation
+2. **Sonde nasogastrique en aspiration** (décompression)
+3. **Mise à jeun**
+4. **Bilan infectieux** et ATB si péritonite
 
----
+### Chirurgie selon l'étiologie
 
-## IX. Diagnostic de gravité — Urgences — Complications
-
-> [!danger] Signes de gravité
-> - 
-> - 
-
-| Complication | Mécanisme | Délai | Conduite à tenir |
-|-------------|-----------|-------|------------------|
-|             |           |       |                  |
-
-- **Urgence absolue** : 
-- **Urgence relative** : 
+| Étiologie | Geste chirurgical |
+|-----------|------------------|
+| Atrésie duodénale | Duodéno-duodénostomie (contournement de l'obstacle) |
+| Atrésie du grêle | Résection-anastomose |
+| Volvulus (urgence) | Détorsion + résection si nécrose |
+| Iléus méconial | Lavement Gastrografin® si succès ; sinon chirurgie |
+| Hirschsprung | Voir note dédiée |
 
 ---
 
-## X. Diagnostic différentiel
+## IX. Évolution et pronostic
 
-| Diagnostic | Arguments pour | Arguments contre | Examen discriminant |
-|------------|---------------|------------------|---------------------|
-| [[]]       |               |                  |                     |
-| [[]]       |               |                  |                     |
-| [[]]       |               |                  |                     |
+- **Volvulus** : pronostic dépend de la rapidité de la prise en charge (risque de grêle court après résection étendue)
+- **Atrésies** : pronostic généralement bon après chirurgie réparatrice
+- **Iléus méconial** : traitement de la mucoviscidose sous-jacente indispensable
 
 ---
 
-## XI. Étiologie
+## X. Conclusion
 
-| Catégorie | Étiologie | Fréquence | Mécanisme |
-|-----------|-----------|-----------|-----------|
-| Infectieuse   |       |           |           |
-| Auto-immune   |       |           |           |
-| Métabolique   |       |           |           |
-| Génétique     |       |           |           |
-| Iatrogène     |       |           |           |
-| Idiopathique  |       |           |           |
-
----
-
-## XII. Prise en charge
-
-### A. Buts du traitement
-
-1. 
-2. 
-3. 
-
-### B. Traitement symptomatique
-
-| Classe | DCI | Posologie | Voie | Durée |
-|--------|-----|-----------|------|-------|
-| [[]]   |     |           |      |       |
-
-### C. Traitement étiologique
-
-| Étiologie | Traitement | Remarques |
-|-----------|------------|-----------|
-|           |            |           |
-
-### D. Traitement chirurgical
-
-- **Indication** : 
-- **Technique** : 
-- **Résultats** : 
-
-### E. Mesures associées
-
-- 
-
----
-
-## XIII. Complications iatrogènes — Effets indésirables
-
-| Traitement | Effet indésirable | Fréquence | Surveillance | CAT |
-|-----------|-------------------|-----------|--------------|-----|
-| [[]]      |                   |           |              |     |
-
----
-
-## XIV. Pronostic
-
-- **Sous traitement** : 
-- **Sans traitement** : 
-- **Facteurs de bon pronostic** :
-  - 
-- **Facteurs de mauvais pronostic** :
-  - 
-- **Survie à 5 ans** *(si applicable)* : 
-
----
-
-## XV. Logigramme — Conduite à tenir
-
-> [!tip] Arbre décisionnel
-> `![[logigramme_CAT_{{title}}.excalidraw]]`
-
-```mermaid
-flowchart TD
-    A[Suspicion clinique] --> B{Signes de gravité ?}
-    B -->|Oui| C[Urgence — PEC immédiate]
-    B -->|Non| D[Bilan paraclinique]
-    D --> E{Diagnostic confirmé ?}
-    E -->|Oui| F[Traitement étiologique]
-    E -->|Non| G[Élargir le bilan / Avis spécialisé]
-    F --> H[Surveillance]
-    C --> I[Stabilisation + Bilan]
-    I --> F
-```
-
----
-
-## XVI. Cas clinique — Réponse
-
-> [!success] Réponse au cas d'introduction
-> **Diagnostic** : 
-> **Arguments** :
-> - 
-> **PEC** :
-> - 
-
----
-
-## XVII. Conclusion
-
-> [!abstract] Points essentiels
-> 1. **Définition** : 
-> 2. **Diagnostic** : 
-> 3. **Urgence à éliminer** : 
-> 4. **Traitement** : 
-> 5. **Pronostic** : 
-
----
-
-## XVIII. Références
-
-| Type | Auteur / Source | Titre | Année | Lien |
-|------|----------------|-------|-------|------|
-| Référentiel |  |  |  |  |
-| Article     |  |  |  |  |
-| Livre       |  |  |  |  |
-
----
-
-## XIX. Pour aller plus loin *(Further Read)*
-
-- 
-- 
-
----
-
-## Capture rapide
-
-> [!tip] Zone brouillon — pendant le cours
-> Vitesse avant perfection. Mots-clés, schémas, idées-clés.
-
-- 
-- 
-- 
+> [!success] Points-clés
+> 1. Tout vomissement bilieux chez le nouveau-né = occlusion jusqu'à preuve du contraire
+> 2. ASP en urgence → double bulle = atrésie duodénale → Trisomie 21 ?
+> 3. Volvulus = urgence chirurgicale extrême (nécrose intestinale en quelques heures)
+> 4. Iléus méconial → penser mucoviscidose (test de la sueur + génétique CFTR)
 
 ---
 
 ## Zone de révision active
 
-> [!question] QCM / Questions de synthèse
-> **Q1** : 
-> **R1** : 
+> [!question] QCM
+> **Q1** : Quel aspect radiologique est pathognomonique de l'atrésie duodénale ?
+> **R1** : Signe de la "double bulle" (poche gastrique + 1ère portion duodénale dilatées, sans air en aval).
 >
-> **Q2** : 
-> **R2** : 
->
-> **Q3** : 
-> **R3** : 
-
-> [!note] Moyens mnémotechniques
-> 
+> **Q2** : Quelle pathologie doit être évoquée devant un iléus méconial ?
+> **R2** : Mucoviscidose (méconium épais lié à la mutation CFTR).
 
 ---
 
 ## Liens
 
-- **MOC** : [[]]
-- **Cours précédent** : [[]]
-- **Cours suivant** : [[]]
-- **Maladies** : [[]]
-- **Médicaments** : [[]]
-- **Concepts** : [[]]
-
----
-
-> [!warning] Points tombables à l'examen
-> - 
-> - 
-> - 
+- **Cours associés** : [[Maladie de Hirschsprung]], [[Malformations congénitales]]
+- **Référentiel** : [[Collège de Chirurgie Pédiatrique]]
 
 ---
 
 > [!success] Suivi de révision
-> | Date | Score (/5) | Méthode | Notes |
-> |------|------------|---------|-------|
-> | {{date}} |        |         |       |
+> | Date | Score (/5) | Notes |
+> |------|------------|-------|
+> | 2026-04-14 | | |
 
----
-
-*Dernière révision : {{date}}*
+*Dernière révision : 2026-04-14*
