@@ -1,401 +1,331 @@
+---
 type: topo
-titre: "Sténose Hypertrophique du Pylore (SHP)"
-date: "2026-04-14"
-module: "Chirurgie Pédiatrique"
-matiere: "Gastroentérologie"
-enseignant: "Pr. Eric DOBREMEZ / Pr. Q. BALLOUHEY"
-semestre: 1
+titre: Sténose Hypertrophique du Pylore (SHP)
+date: 2026-04-14
+module: "[[Maladies de l'enfant]]"
+matiere: Chirurgie Pédiatrique
+enseignant: Pr. Fourraiji / Pr. Ballouhey / Pr. Dobremez
+semestre: S8
 annee: 2025-2026
-audio: "[[]]"
-source_pdf: "[[Cours-SHP.pdf]], [[Dobremez-2013.pdf]], [[Lagausie-2006.pdf]]"
+audio: "[[02 - 02- Sténose hypertrophique du pylore - Pr. FOURAIJI.mp3]]"
+source_pdf:
 statut: brouillon
 revision: 0
+prochaine_revision: 2026-04-21
 tags:
   - lecture
-  - chirurgie-pediatrique
-  - gastroentérologie
----
-
-### Sténose Hypertrophique du Pylore (SHP)
-
-[!info] Métadonnées
-**Module** : Chirurgie Pédiatrique · **Enseignant** : Pr. Dobremez / Ballouhey
-**Date** : 14/04/2026 · **Semestre** : S1
-**Statut** : 🔴 Brouillon
-
----
-
-#### I. Introduction
-[!abstract] Objectifs pédagogiques
-1. Diagnostiquer une SHP sur la clinique.
-2. Interpréter l'imagerie (échographie).
-3. Connaître les principes de la prise en charge médico-chirurgicale.
-
-*   **Définition** : Hypertrophie sténosante des fibres musculaires du sphincter pylorique, formant une "olive pylorique" [1, 2].
-*   **Intérêt de la question** :
-    *  Fréquence : 2/1000 naissances ; 2ème cause de vomissements après le RGO [1, 3].
-    *  Gravité : Risque de déshydratation sévère et d'alcalose métabolique [1].
-    *  Enjeu : Urgence thérapeutique différée (priorité à la réanimation biologique) [4].
-
----
-
-#### II. Rappels
-##### A. Anatomique
-Le pylore est le canal de sortie de l'estomac vers le duodénum. Dans la SHP, il devient long et arciforme [4].
-##### B. Physiologique
-Pathologie spontanément réversible en 4 mois environ [5].
-
----
-
-#### III. Épidémiologie
-*   **Prévalence** : 2/1000 naissances [1, 3].
-*   **Sex-ratio** : 80-85 % de garçons, souvent l'aîné de la fratrie [1-3].
-*   **Tranche d'âge** : Nouveau-né de moins de 3 mois (pic à 3-4 semaines de vie) [2, 6].
-*   **Caractère saisonnier** : Pic au printemps et à l'automne [2, 3].
-
----
-
-#### IV. Étiopathogénie
-##### A. Étiologies
-La SHP est multifactorielle : terrain familial, immaturité du pylore et facteurs environnementaux (VIP, NO, Ach) [2, 5].
-
-##### B. Physiopathologie
-Obstruction mécanique de la vidange gastrique par l'hypertrophie musculaire.
-
----
-
-#### V. Étude clinique — TDD : *Nourrisson de 3 à 6 semaines*
-##### A. Circonstances de découverte
-Vomissements alimentaires après un **intervalle libre** de quelques semaines après la naissance [1, 3, 7].
-##### B. Signes fonctionnels
-*   **Vomissements** : Alimentaires (lait caillé), abondants, **en jet**, jamais bilieux, survenant à distance des repas [2, 6, 7].
-*   **Appétit** : Enfant affamé ("goulus") [2, 7].
-##### C. Signes physiques
-*   **Inspection** : Voussure épigastrique, ondes de péristaltisme gastrique [7, 8].
-*   **Palpation** : **Olive pylorique** perçue dans l'hypochondre droit (véritable "accouchement" à la palpation) [7-9].
-*   **Percussion** : Estomac de lutte distendu.
-##### D. Signes généraux
-Cassure de la courbe pondérale, signes de déshydratation, constipation et oligurie [2, 7, 8].
-
----
-
-#### VI. Examens complémentaires
-##### A. Biologie
-Hématocrite augmenté (hémoconcentration), **alcalose métabolique hypochlorémique** (par perte d'ions H+ et Cl- dans les vomissements) [1, 8].
-##### B. Imagerie
-*   **Échographie abdominale (Examen Clé)** :
-    *  Épaisseur musculaire > 4 mm [10, 11].
-    *  Longueur du canal pylorique > 15-16 mm [10, 11].
-    *  Image en "cocarde" ou "double cible" en coupe transversale [11].
-*   **ASP** : Distension gastrique, faible aération d'aval [7, 9, 10].
-##### C. Examens spécialisés
-**TOGD** : Utilisé si doute diagnostique. Montre un canal pylorique allongé, étiré ("signe du lacet") [4, 8].
-
----
-
-#### VII. Diagnostic
-##### A. Diagnostic positif
-Clinique (vomissements en jet + olive) confirmée par l'échographie [10, 12].
-##### B. Diagnostic différentiel
-| Diagnostic | Argument pour | Argument contre |
-| ------ | ------ | ------ |
-| RGO | Vomissements fréquents | Pas d'olive, pas d'alcalose sévère |
-| Atrésie duodénale | Vomissements précoces | Image de "double bulle" à l'ASP [10] |
-| Erreur diététique | Suralimentation | Courbe pondérale normale |
-
----
-
-#### IX. Traitement
-##### A. Buts
-Réhydrater, corriger l'alcalose et lever l'obstacle mécanique.
-##### B. Moyens
-###### Médicamenteux
-*   Rééquilibration hydro-électrolytique (Polyionique 5-10 ml/kg/h) [4].
-*   Atropine (discutée comme alternative médicale) [13].
-###### Chirurgicaux
-*   **Pyloromyotomie extra-muqueuse (opération de Fredet-Ramstedt)** : Section longitudinale du muscle sans ouvrir la muqueuse [1, 4, 9].
-*   Voie d'abord : Ombilicale (cosmétique) ou laparoscopie [9, 14].
-###### Mesures hygiéno-diététiques
-Réalimentation précoce post-opératoire (*ad libitum* ou selon protocole) [13].
-
-##### C. Indications
-Chirurgie dès que l'enfant est réhydraté et que la chlorurémie est > 95-100 mmol/L [4, 9].
-
----
-
-#### X. Évolution et pronostic
-*   **Sous traitement** : Guérison dans > 99 % des cas [13].
-*   **Complications** : Perforation muqueuse (peropératoire), infection de paroi, vomissements persistants par RGO associé (3 %) [5, 13].
-
----
-
-#### Zone de révision active
-[!question] QCM
-**Q1** : Quel est le signe biologique classique de la SHP ?
-**R1** : Alcalose métabolique hypochlorémique.
-**Q2** : Quel est le critère échographique d'épaisseur musculaire ?
-**R2** : > 4 mm.
-
----
-*Dernière révision : 2026-04-14*
-
---------------------------------------------------------------------------------
-Fiche 2 : L'Invagination Intestinale Aiguë (IIA)
-
---------------------------------------------------------------------------------
----
-type: topo
-titre: "Invagination Intestinale Aiguë (IIA)"
-date: "2026-04-14"
-module: "Chirurgie Pédiatrique"
-matiere: "Gastroentérologie"
-enseignant: "Pr. KAMILI"
-semestre: 1
-annee: 2025-2026
-audio: "[[]]"
-source_pdf: "[[01 - 01- INVAGINATION INTESTINALE AIGUË DU NOURRISSON - Pr. KAMILI.txt]]"
-statut: brouillon
-tags:
-  - chirurgie-pediatrique
-  - urgence
----
-
-### Invagination Intestinale Aiguë (IIA)
-
-[!info] Métadonnées
-**Module** : Chirurgie Pédiatrique · **Enseignant** : Pr. Kamili
-**Statut** : 🔴 Brouillon
-
----
-
-#### I. Introduction
-*   **Définition** : Pénétration d'un segment intestinal (le plus souvent le grêle) dans le segment d'aval [15].
-*   **Intérêt de la question** :
-    *  La plus fréquente des urgences chirurgicales chez le nourrisson [15, 16].
-    *  Urgence extrême : risque de nécrose intestinale [15].
-
----
-
-#### III. Épidémiologie
-*   **Tranche d'âge** : Nourrisson de 2 mois à 2 ans (pic entre 4 et 9 mois) [17].
-
----
-
-#### IV. Étiopathogénie
-##### A. Étiologies
-*   **Idiopathique (90 %)** : Souvent suite à une infection virale (hypertrophie des plaques de Peyer) [18].
-*   **Secondaire (10 %)** : Cause organique (diverticule de Meckel, lymphome, polype, duplication digestive) [18, 19].
-
----
-
-#### V. Étude clinique — TDD : *IIA idiopathique non compliquée*
-##### A. Circonstances de découverte
-Triade classique anamnestique [20].
-##### B. Signes fonctionnels (La Triade)
-1. **Crises douloureuses paroxystiques** : Cris, pleurs, accès de pâleur, entrecoupés de phases d'accalmie [20].
-2. **Vomissements** [20].
-3. **Rectorragies** (rectorragie tardive évoquant une "gelée de groseille") [21].
-##### C. Signes physiques
-*   **Palpation** : **Boudin d'invagination** perçu le long du cadre colique (souvent masqué par le foie) [18, 22].
-*   **Toucher Rectal** : Recherche de sang ou perception du pôle inférieur du boudin [22].
-
----
-
-#### VI. Examens complémentaires
-##### B. Imagerie
-*   **Échographie abdominale (Premier examen)** : Montre une image en "cocarde" ou "cible" en coupe transversale et en "pseudo-rein" en coupe longitudinale [22].
-*   **Lavement (Barité, Air ou Eau)** : Diagnostic et thérapeutique. Montre un arrêt de la colonne de produit en "cupule" ou en "pince de homard" [21, 23].
-
----
-
-#### VII. Diagnostic
-##### D. Diagnostic de gravité / Complications
-Occlusion intestinale, péritonite par perforation, nécrose intestinale [17].
-
----
-
-#### IX. Traitement
-##### B. Moyens
-*   **Non chirurgical** : Réduction par lavement (hydrostatique ou pneumatique) sous contrôle scopique ou échographique [23].
-*   **Chirurgical** : Réduction manuelle (méthode de Hutchinson) ou résection intestinale si nécrose [24].
-##### C. Indications
-*   **Réduction radiologique** : Indiquée si IIA récente (< 24h) et absence de signes de péritonite [17].
-*   **Chirurgie** : Indiquée en cas d'échec du lavement, de récidive, de signes de péritonite ou si âge < 2 mois / > 2 ans [17].
-
----
-
-#### X. Évolution et pronostic
-Pronostic excellent si diagnostic précoce. Risque de récidive (environ 5-10 %) [15, 25, 26].
-
----
-*Dernière révision : 2026-04-14*
-Quels sont les critères de Fredet-Ramstedt pour opérer ?
-Comment différencier l'IIA idiopathique de l'IIA secondaire ?
-Expliquez la méthode de Hutchinson pour la réduction manuelle.
-can you create a fiche de medecine in .md format pour revision, en utilisant "topo.md" as a template and use data from .txt file and .pdf files
-
-Voici une fiche de révision complète au format .md sur la Sténose Hypertrophique du Pylore (SHP), élaborée en suivant scrupuleusement votre template "topo.md" et en intégrant les données des sources fournies.
-
---------------------------------------------------------------------------------
----
-type: topo
-titre: "Sténose Hypertrophique du Pylore (SHP)"
-date: "2026-04-14"
-module: "Chirurgie Pédiatrique"
-matiere: "Gastroentérologie"
-enseignant: "Pr. FOURAIJI / Pr. BALLOUHEY / Pr. DOBREMEZ"
-semestre: 1
-annee: 2025-2026
-audio: "[[]]"
-source_pdf: "[[02 - 02- Sténose hypertrophique du pylore - Pr. FOURAIJI.txt]], [[Cours-SHP.pdf]], [[Dobremez-2013.pdf]], [[Lagausie-2006.pdf]]"
-statut: brouillon
-revision: 0
-prochaine_revision: 
-tags:
-  - lecture
-  - chirurgie-pediatrique
-  - gastroentérologie
-aliases: [SHP]
+  - a-traiter
+  - Urgences néonatales
+  - Gastroentérologie
+aliases:
+  - SHP
+  - Sténose du pylore
 cssclasses:
   - medical-note
-created: "2026-04-14T02:54"
-modified: "2026-04-14T02:54"
+created: 2026-04-14T10:00
+modified: 2026-04-14T10:00
 ---
 
-### Sténose Hypertrophique du Pylore (SHP)
-[!info] Métadonnées
-**Module** : Chirurgie Pédiatrique · **Enseignants** : Pr. Fouraiji / Ballouhey / Dobremez
-**Date** : 14/04/2026 · **Semestre** : S1
-**Statut** : 🔴 Brouillon → 🟡 Révisé → 🟢 Maîtrisé
+# Sténose Hypertrophique du Pylore (SHP)
 
----
-
-#### I. Introduction
-[!abstract] Objectifs pédagogiques
-1. Diagnostiquer une SHP sur des signes cliniques typiques.
-2. Interpréter les critères échographiques de mesure du pylore.
-3. Connaître la priorité de la réanimation biologique avant la chirurgie.
-
-*   **Définition** : Hypertrophie de la couche musculeuse circulaire du pylore créant un obstacle à la vidange gastrique [1-3].
-*   **Intérêt de la question** :
-    *  Fréquence : 1 à 2 pour 1000 naissances ; pathologie fréquente en chirurgie pédiatrique [4-6].
-    *  Gravité : Risque de déshydratation sévère, dénutrition et alcalose métabolique grave [4, 7, 8].
-    *  Enjeu : **Urgence médico-chirurgicale** (la réanimation médicale doit précéder l'acte chirurgical) [1, 9, 10].
+> [!info] Métadonnées
+> **Module** : [[Maladies de l'enfant]] · **Enseignants** : Pr. Fourraiji (cours principal) · Pr. Ballouhey / Dobremez (référentiels)
+> **Date** : 2026-04-14 · **Semestre** : S8
+> **Statut** : 🔴 Brouillon → 🟡 Révisé → 🟢 Maîtrisé
 
 ---
 
-#### II. Rappels
-##### A. Anatomique
-Le pylore est la zone de passage entre l'estomac et le duodénum. Dans la SHP, il se forme une masse musculaire appelée **olive pylorique** [3, 7].
-##### B. Physiologique
-La pathologie est considérée comme spontanément réversible en environ 4 mois [11, 12].
+## I. Introduction
+
+> [!abstract] Objectifs pédagogiques
+> 1. Reconnaître les signes cliniques évocateurs de SHP.
+> 2. Comprendre la physiopathologie de l'alcalose hypochlorémique.
+> 3. Interpréter les critères échographiques diagnostiques.
+> 4. Connaître la priorité de la réanimation médicale préopératoire.
+> 5. Expliquer les principes de la pylorotomie extra‑muqueuse.
+
+- **Définition** : Hypertrophie progressive de la couche musculeuse circulaire du pylore, réalisant un obstacle mécanique à la vidange gastrique. Le pylore épaissi forme une **olive pylorique** palpable.
+- **Intérêt de la question** :
+  - **Fréquence** : 1 à 2 / 1000 naissances ; 2ᵉ cause de vomissements du nourrisson après le RGO.
+  - **Gravité** : **Urgence médico‑chirurgicale**. Le retard diagnostique expose à une déshydratation sévère, une alcalose métabolique décompensée, un coma, voire le décès.
+  - **Enjeu** : La **réanimation hydro‑électrolytique prime sur la chirurgie**. La correction biologique est un prérequis absolu avant l'intervention.
 
 ---
 
-#### III. Épidémiologie
-*   **Prévalence / Incidence** : 2/1000 naissances [5, 6].
-*   **Sex-ratio** : 80 à 85 % de garçons, souvent le premier-né de la fratrie [3-5].
-*   **Tranche d'âge** : Nouveau-né de moins de 3 mois, avec un pic entre la 3ème et la 6ème semaine de vie [3, 13-15].
-*   **Caractère saisonnier** : Pics observés au printemps et à l'automne [3, 5, 16].
+## II. Rappels
+
+### A. Anatomique
+
+- Le pylore est le sphincter musculeux situé entre l'antre gastrique et le duodénum.
+- Dans la SHP, la couche circulaire de la musculeuse s'épaissit, allongeant et rigidifiant le canal pylorique. La lumière devient virtuelle.
+
+### B. Physiologique
+
+- L'obstacle pylorique empêche la vidange gastrique → stase, distension, vomissements.
+- Perte de liquide gastrique riche en **H⁺** et **Cl⁻** → **alcalose métabolique hypochlorémique**.
+- La déshydratation et l'hypokaliémie aggravent l'alcalose (paradoxalement).
+
+### C. Embryologique
+
+- La pathologie est spontanément réversible en quelques mois (maturation de l'innervation pylorique), mais la dénutrition impose une intervention rapide.
 
 ---
 
-#### IV. Étiopathogénie
-##### A. Étiologies
-| Catégorie | Étiologie | Mécanisme |
-| ------ | ------ | ------ |
-| Génétique | Terrain familial | Risque accru si la mère a été atteinte [3, 16]. |
-| Neurologique | Immaturité du pylore | Défaut d'innervation ou de médiateurs (VIP, NO) [3, 16]. |
+## III. Épidémiologie
 
-##### B. Physiopathologie
-1. L'hypertrophie musculaire ferme le canal pylorique [1, 2].
-2. Rétention du contenu gastrique suivie de vomissements post-prandiaux [2].
-3. Perte d'ions H+ et Cl- entraînant une **alcalose métabolique hypochlorémique** [8, 9, 17, 18].
+| Paramètre | Donnée |
+|-----------|--------|
+| **Incidence** | 1 à 2 / 1000 naissances |
+| **Sex‑ratio** | 4–5 garçons : 1 fille ; souvent le **premier‑né** |
+| **Âge de survenue** | 3 à 6 semaines de vie (intervalle libre) |
+| **Pic saisonnier** | Printemps et automne (rôle possible des infections virales) |
+| **Terrain** | Prédisposition familiale (risque x3 si mère atteinte) |
 
 ---
 
-#### V. Étude clinique — TDD : *Nourrisson de 4 semaines*
-##### A. Circonstances de découverte
-Vomissements alimentaires survenant après un **intervalle libre** de quelques semaines après la naissance [1, 3, 14].
-##### B. Signes fonctionnels
-*   **Vomissements** : Alimentaires (lait caillé), **en jet**, abondants, jamais bilieux, survenant à distance des repas [1, 2, 15, 19].
-*   **Appétit** : Enfant affamé ("goulu"), reprend son biberon immédiatement après avoir vomi [3, 7, 19].
-##### C. Signes physiques
-*   **Inspection** : Voussure épigastrique et **ondulations péristaltiques** (estomac de lutte) [14, 18, 20].
-*   **Palpation** : Perception de l'**olive pylorique** dans l'hypochondre droit (véritable "accouchement" du pylore sous le doigt) [7, 14, 21, 22].
-*   **Percussion** : Distension gastrique [23].
-##### D. Signes généraux
-Cassure de la courbe pondérale, signes de déshydratation (pli cutané), oligurie et constipation [7, 8, 14, 18].
+## IV. Étiopathogénie
+
+### A. Étiologies
+
+| Catégorie | Mécanisme présumé |
+|-----------|-------------------|
+| **Idiopathique** (majorité) | Immaturité du système nerveux intrinsèque (déficit en NO synthétase, VIP). |
+| **Génétique** | Agrégation familiale ; association à certains groupes sanguins. |
+| **Environnementale** | Exposition au macrolide (érythromycine) en période néonatale. |
+
+### B. Physiopathologie
+
+> [!tip] Cascade physiopathologique
+> 1. Hypertrophie musculaire progressive du pylore.
+> 2. Sténose fonctionnelle → **stase gastrique**.
+> 3. Vomissements répétés → perte d'eau, de **Cl⁻**, **H⁺**, **K⁺**.
+> 4. **Alcalose métabolique hypochlorémique** avec acidurie paradoxale.
+> 5. Déshydratation → hémoconcentration → insuffisance rénale fonctionnelle.
 
 ---
 
-#### VI. Examens complémentaires
-##### A. Biologie
-*   Gaz du sang : **Alcalose métabolique** [8, 9, 17, 18].
-*   Ionogramme : **Hypochlorémie**, hypokaliémie [8, 9, 17].
-##### B. Imagerie
-*   **Échographie abdominale (Examen Clé)** [4, 19, 23] :
-    *  Épaisseur musculaire (musculeuse) **> 4 mm** [24-26].
-    *  Longueur du canal pylorique **> 15-16 mm** [24-26].
-    *  Image en "cocarde" ou "double cible" en coupe transversale [23, 24].
-*   **ASP** : Distension gastrique importante, faible aération des anses intestinales en aval [14, 23, 25].
-##### C. Examens spécialisés
-*   **TOGD** : Indiqué seulement en cas de doute diagnostique. Montre un canal pylorique allongé et rétréci ("signe du lacet" ou "canal arciforme") [23, 27, 28].
+## V. Étude clinique — TDD : *Nourrisson de 4 semaines*
+
+### A. Circonstances de découverte
+
+- **Intervalle libre** : nourrisson asymptomatique les 2–3 premières semaines.
+- Apparition de vomissements, d'abord intermittents puis systématiques.
+
+### B. Signes fonctionnels (Triade clinique)
+
+1. **Vomissements** :
+   - **En jet** (projection à distance).
+   - **Lait caillé** (stase gastrique prolongée).
+   - **Jamais bilieux** (obstacle sus‑vatérien).
+   - Surviennent **après le biberon** (15–30 min).
+2. **Appétit conservé** : l'enfant est **affamé**, réclame à manger immédiatement après avoir vomi.
+3. **Constipation** et oligurie (déshydratation).
+
+### C. Signes physiques
+
+| Temps | Résultat |
+|-------|----------|
+| **Inspection** | Voussure épigastrique, **ondulations péristaltiques** spontanées ou provoquées (estomac de lutte). |
+| **Palpation** | **Olive pylorique** : masse ferme, mobile, de la taille d'une olive, perçue dans l'hypochondre droit ou la région épigastrique. *Pathognomonique mais inconstant (30–50 % des cas).* |
+| **Percussion** | Distension gastrique. |
+| **Auscultation** | Bruits hydro‑aériques de lutte. |
+
+### D. Signes généraux
+
+- **Cassure de la courbe pondérale** (signe d'alarme).
+- **Déshydratation** : pli cutané, fontanelle déprimée, yeux cernés.
+- **Ictère** : associé dans 5–10 % des cas (ictère à bilirubine libre par diminution de la glucuronoconjugaison hépatique liée au jeûne).
 
 ---
 
-#### VII. Diagnostic
-##### A. Diagnostic positif
-Clinique (vomissements en jet + intervalle libre) confirmée par les mesures échographiques [19, 27].
-##### B. Diagnostic différentiel
-| Diagnostic | Argument pour | Argument contre |
-| ------ | ------ | ------ |
-| GERD | Vomissements fréquents | Pas d'olive, lait souvent non caillé, pas d'alcalose [29]. |
-| Atrésie duodénale | Vomissements précoces | Image de "double bulle" à l'ASP [25]. |
+## VI. Examens complémentaires
 
-##### D. Diagnostic de gravité / Complications
-*   Déshydratation sévère, coma métabolique, décès si non traité [1, 4, 8].
-*   Perforation muqueuse ou péritonite post-opératoire [12, 30].
+### A. Biologie (Bilan de retentissement)
 
----
+| Examen | Résultat attendu | Intérêt |
+|--------|-------------------|---------|
+| **Gaz du sang** | pH > 7,45 ; bicarbonates > 30 mmol/L | Confirme l'**alcalose métabolique**. |
+| **Ionogramme sanguin** | **Hypochlorémie** < 95 mmol/L ; Hypokaliémie ; Hypochlorurie | Guide la réanimation préopératoire. |
+| **NFS** | Hémoconcentration (hématocrite élevé) | Témoin de la déshydratation. |
 
-#### VIII. Formes cliniques
-*   **Selon l'âge** : Formes précoces (peu d'intervalle libre) ou tardives (> 4 semaines) [13, 18].
-*   **Selon le terrain** : Cas chez le prématuré ou l'adolescent (rare) [14, 31].
-*   **Formes associées** : Reflux gastro-œsophagien associé (très fréquent) [29].
+### B. Imagerie
 
----
+> [!warning] Examen clé
+> **Échographie abdominale** (examen de première intention, non invasif).
 
-#### IX. Traitement
-##### A. Buts
-Réhydrater, corriger les troubles ioniques et lever l'obstacle mécanique [9, 17].
-##### B. Moyens
-###### Médicamenteux
-*   **Réanimation biologique** : Pose d'une VVP, soluté polyionique (5-10 ml/kg/h). **La chlorurémie doit être > 95 mmol/L avant d'opérer** [9, 10, 17].
-*   Aspiration gastrique (sonde en siphonage) et mise en proclive [10, 17].
-###### Chirurgicaux
-*   **Pyloromyotomie extra-muqueuse (opération de Fredet-Ramstedt)** : Section longitudinale du muscle pylorique sans ouvrir la muqueuse [10, 21, 22].
-*   Voie d'abord : Ombilicale (cosmétique), transversale ou laparoscopie [10, 21, 22, 32].
-###### Mesures hygiéno-diététiques
-Réalimentation précoce (4 à 6h après l'opération), souvent *ad libitum* [10, 12, 30].
+| Examen | Signe caractéristique | Seuil diagnostique |
+|--------|----------------------|---------------------|
+| **Échographie** | Image en **cocarde** ou **double cible** (coupe transversale) ; **pseudo‑rein** (coupe longitudinale). | **Épaisseur musculaire > 4 mm** ; **Longueur du canal > 15–20 mm** ; Diamètre transverse > 13 mm. |
+| **ASP** | Distension gastrique ; faible aération d'aval. | Intérêt limité ; élimine un pneumopéritoine. |
+| **TOGD** (si doute) | Canal pylorique effilé, étiré (**signe du lacet** ou **bec de flûte**) ; retard d'évacuation gastrique. | Examen de seconde intention. |
 
 ---
 
-#### X. Évolution et pronostic
-*   **Sous traitement** : Guérison dans plus de 99 % des cas [6, 12].
-*   **Complications** : Perforation muqueuse (per-opératoire), infection de paroi, persistance de vomissements par GERD (3 %) [12, 30, 33].
+## VII. Diagnostic
+
+### A. Diagnostic positif
+
+- **Critères cliniques** : Intervalle libre + vomissements en jet de lait caillé + appétit vorace + (olive palpable).
+- **Critères paracliniques** : Échographie montrant une musculeuse pylorique > 4 mm et un canal > 15 mm.
+
+### B. Diagnostic différentiel
+
+| Diagnostic | Arguments pour | Arguments contre / Examens discriminants |
+|------------|---------------|------------------------------------------|
+| **Reflux gastro‑œsophagien (RGO)** | Vomissements post‑prandiaux précoces. | Lait non caillé ; pas d'alcalose ; écho normale. |
+| **Atrésie duodénale** | Vomissements **bilieux** précoces (J1). | ASP : image en **double bulle**. |
+| **Erreur diététique / suralimentation** | Vomissements occasionnels. | Courbe pondérale normale ; pas de trouble ionique. |
+| **Hyperplasie congénitale des surrénales** | Vomissements, déshydratation. | Hypoglycémie, hyponatrémie, **hyperkaliémie** (≠ alcalose). |
+
+### C. Diagnostic étiologique
+
+- Idiopathique dans l'immense majorité des cas. Recherche d'antécédents familiaux.
+
+### D. Diagnostic de gravité / Complications
+
+- **Déshydratation sévère > 10 %** avec collapsus.
+- **Alcalose métabolique décompensée** : pH > 7,55 → risque de troubles du rythme, convulsions, coma.
+- **Dénutrition protéino‑énergétique**.
 
 ---
 
-#### Zone de révision active
-[!question] QCM / Questions de synthèse
-**Q1** : Quel est le signe biologique pathognomonique de la SHP ?
-**R1** : L'alcalose métabolique hypochlorémique par perte d'acide chlorhydrique.
-**Q2** : Quels sont les deux principaux critères échographiques ?
-**R2** : Épaisseur du muscle > 4 mm et longueur du canal > 15 mm.
+## VIII. Formes cliniques
 
-[!example] Cas clinique rapide
-Nourrisson de 1 mois, vomissements en jet de lait caillé après chaque biberon depuis 3 jours. L'enfant est affamé mais perd du poids. Diagnostic ? -> SHP à confirmer par échographie.
+- **Forme précoce** : vomissements dès la naissance (absence d'intervalle libre).
+- **Forme tardive** : diagnostic après l'âge de 2–3 mois.
+- **Forme associée au RGO** : vomissements mixtes (lait frais + lait caillé).
+- **Forme ictérique** : ictère à bilirubine libre associé.
 
 ---
+
+## IX. Traitement
+
+### A. Buts
+
+1. **Corriger les troubles hydro‑électrolytiques** (urgence médicale absolue).
+2. **Lever l'obstacle pylorique** (chirurgie différée après stabilisation).
+
+### B. Moyens
+
+#### 1. Médicamenteux (Réanimation préopératoire)
+
+| Mesure | Modalités | Objectif |
+|--------|-----------|----------|
+| **Voie veineuse** | Perfusion de soluté glucosé polyionique (B26 ou similaire). | Réhydratation progressive. |
+| **Compensation gastrique** | Soluté salé isotonique volume/volume (pertes gastriques). | Équilibrer les pertes chlorées. |
+| **Correction ionique** | Supplémentation en **KCl** (après reprise de diurèse). | Normaliser kaliémie. |
+| **Sonde gastrique** | En siphonage doux ; enfant en proclive. | Vidange gastrique, prévention inhalation. |
+
+> [!important] Critères pour autoriser la chirurgie
+> - **Chlorémie > 95–100 mmol/L**.
+> - Bicarbonates < 30 mmol/L.
+> - Diurèse normale, bon état d'hydratation clinique.
+> *Délai moyen de correction : 24–48 heures.*
+
+#### 2. Chirurgicaux
+
+- **Pyloromyotomie extra‑muqueuse de Fredet‑Ramstedt** :
+  - **Principe** : Section longitudinale de la séreuse et de la musculeuse hypertrophiée jusqu'à faire **hernier la muqueuse** (sans l'ouvrir).
+  - **Voies d'abord** :
+    - **Péri‑ombilicale** (incision arciforme dans le pli ombilical supérieur) : esthétique, récupération rapide.
+    - **Laparoscopie** : alternative séduisante, durée opératoire comparable, bénéfice cosmétique.
+    - Transversale de l'hypochondre droit (classique).
+
+#### 3. Mesures hygiéno‑diététiques post‑opératoires
+
+- Réalimentation précoce : 4 à 6 heures après l'intervention.
+- Protocole : eau sucrée → lait maternel / infantile en quantité progressivement croissante.
+- Sortie autorisée après 24–48h si alimentation bien tolérée.
+
+### C. Indications
+
+- **Traitement médical** : systématique et **premier** chez tout enfant suspect de SHP.
+- **Traitement chirurgical** : dès que l'enfant est stabilisé sur le plan métabolique (chlorémie normalisée).
+
+### D. Surveillance
+
+- **Post‑opératoire immédiat** : reprise du transit, tolérance alimentaire, survenue de vomissements.
+- **À distance** : courbe pondérale ; rechercher un RGO associé (fréquent, souvent transitoire).
+
+---
+
+## X. Évolution et pronostic
+
+- **Sous traitement** :
+  - **Guérison dans > 99 % des cas**, sans séquelle à long terme.
+  - Mortalité quasi nulle dans les pays développés.
+- **Sans traitement** :
+  - Cachexie, défaillance multiviscérale, décès.
+- **Complications chirurgicales** (rares < 1–2 %) :
+  - **Brèche muqueuse** peropératoire → risque de péritonite postopératoire si non réparée.
+  - **Pyloromyotomie insuffisante** → vomissements persistants (reprise chirurgicale).
+  - Infection de paroi, éventration sur cicatrice ombilicale.
+
+---
+
+## XI. Conclusion
+
+> [!abstract] Points essentiels
+> 1. **Diagnostic clinique** : Vomissements en jet de **lait caillé** après un intervalle libre chez un nourrisson **affamé**.
+> 2. **Confirmation échographique** : Épaisseur musculaire > **4 mm**.
+> 3. **Urgence médico‑chirurgicale** : La **réanimation hydro‑électrolytique** (correction de l'alcalose hypochlorémique) **précède obligatoirement la chirurgie**.
+> 4. **Traitement de référence** : Pyloromyotomie extra‑muqueuse de Fredet‑Ramstedt (voie péri‑ombilicale).
+> 5. **Pronostic excellent** si prise en charge précoce et adaptée.
+
+---
+
+## Capture rapide
+
+> [!tip] Zone brouillon — pendant le cours
+> - Triade : **Jet**, **Lait caillé**, **Affamé**.
+> - Bio : **Alcalose hypochlorémique** (pH ↑, Cl⁻ ↓).
+> - Écho : **Muscle > 4 mm**, **Longueur > 15 mm**.
+> - Ne jamais opérer avant correction de la chlorémie (> 95 mmol/L).
+
+---
+
+## Zone de révision active
+
+> [!question] QCM / Questions de synthèse
+> **Q1** : Quel est le trouble acido‑basique caractéristique de la SHP ?
+> **R1** : Alcalose métabolique hypochlorémique.
+>
+> **Q2** : Quels sont les deux seuils échographiques diagnostiques principaux ?
+> **R2** : Épaisseur musculaire > 4 mm ; longueur du canal pylorique > 15–20 mm.
+>
+> **Q3** : Pourquoi ne peut‑on pas opérer un enfant atteint de SHP en urgence immédiate ?
+> **R3** : Le risque anesthésique lié à l'alcalose métabolique décompensée et à l'hypovolémie impose une réanimation hydro‑électrolytique préalable (correction de la chlorémie).
+
+> [!example] Cas clinique rapide
+> Nourrisson de 5 semaines, premier‑né, vomit en jet depuis 3 jours. Il réclame le sein avidement juste après avoir vomi. L'examen retrouve des ondulations péristaltiques.
+> **Quel examen demandez‑vous ?** → Échographie abdominale.
+> **Quel bilan sanguin ?** → Ionogramme sanguin, gaz du sang (recherche alcalose hypochlorémique).
+> **Conduite à tenir ?** → Hospitalisation, réhydratation IV, correction ionique ; chirurgie après normalisation de la chlorémie.
+
+> [!note] Moyens mnémotechniques
+> **J.E.T. 4x4** :
+> - **J**et (vomissements en)
+> - **E**nfant **A**ffamé
+> - **T**rouble métabolique (Alcalose)
+> - **É**cho > **4** mm (épaisseur) ; > **4** semaines (âge) ; **4** à 48h de réa pré‑op.
+
+---
+
+## Liens
+
+- **Cours précédent** : [[Invagination intestinale aiguë du nourrisson]]
+- **Cours suivant** : [[Hernie inguinale étranglée]]
+- **Maladies** : [[Alcalose métabolique]], [[Reflux gastro‑œsophagien du nourrisson]]
+- **Médicaments** : [[Solutés de réhydratation]], [[Chlorure de potassium]]
+- **Référentiel** : [[Collège de Chirurgie Pédiatrique]], [[Item 282 — Vomissements du nourrisson]]
+
+---
+
+> [!success] Suivi de révision
+> | Date | Score (/5) | Méthode | Notes |
+> |------|------------|---------|-------|
+> | 2026-04-14 |        |         |       |
+
+---
+
 *Dernière révision : 2026-04-14*

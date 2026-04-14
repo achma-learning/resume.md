@@ -35,8 +35,7 @@
               "title": "+ Sténose hypertrophique du pylore"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,10 +197,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "1e3b797e6f53dc41",
+  "active": "c35e2eac5a95a232",
   "lastOpenFiles": [
-    "ped-chir/shpylore.md",
     "ped-chir/+ Sténose hypertrophique du pylore.md",
+    "ped-chir/shpylore.md",
+    "Cours-SHP.pdf]], [[Dobremez-2013.pdf.md",
     "02 - 02- Sténose hypertrophique du pylore - Pr. FOURAIJI.mp3.md",
     "ped-chir/Invagination intestinale.md",
     "ped-chir/+ Anomalie de migration et de position testiculaire.md",
@@ -225,7 +225,6 @@
     "ped-chir/Torsion du cordon spermatique .md",
     "ped-chir/Proctologie pédiatrique .md",
     "ped-chir/Pied du nouveau né.md",
-    "ped-chir/Pathologie du CPV.md",
     "s7-notes 1/neuro/neurologie",
     "s7-notes 1/neuro/neurochir",
     "s7-notes 1/neuro",
