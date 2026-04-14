@@ -268,23 +268,23 @@ flowchart TD
 
 ### B. Bilan biologique complet
 
-| Examen | Résultat attendu / Interprétation |
-|--------|----------------------------------|
-| **ALAT (TGP)** | Élevées (fluctuantes, parfois normales) — reflet de la cytolyse |
-| ASAT (TGO) | Élevées ; ratio ASAT/ALAT > 1 évoque cirrhose |
-| GGT, PAL | Cholestase associée possible |
-| Bilirubine totale | Élevée si cholestase ou insuffisance hépatocellulaire |
-| **TP (taux de prothrombine)** | Abaissé si insuffisance hépatocellulaire |
-| Albumine | Abaissée si cirrhose évoluée |
-| **NFS-plaquettes** | Thrombopénie (hypersplénisme) évoque cirrhose |
-| **Charge virale VHC (ARN)** | Quantification avant traitement (copies/mL ou UI/mL) |
-| Génotypage VHC | Utile si échec AAD ou populations spéciales |
-| **Cryoglobuline** | Prélèvement à 37°C ; recherche si signes évocateurs |
-| Facteur rhumatoïde + complément (C3/C4) | Si CM : FR élevé + C4 bas |
-| Glycémie, HbA1c | Dépistage diabète associé |
-| **Ag HBs, Ac anti-HBc, Ac anti-HBs** | Co-infection VHB obligatoire à rechercher |
-| **Sérologie VIH** | Co-infection VIH obligatoire à rechercher |
-| **ECG** | Recommandé avant AAD (HAS 2024) — recherche trouble du rythme/conduction |
+| Examen                                  | Résultat attendu / Interprétation                                        |
+| --------------------------------------- | ------------------------------------------------------------------------ |
+| **ALAT (TGP)**                          | Élevées (fluctuantes, parfois normales) — reflet de la cytolyse          |
+| ASAT (TGO)                              | Élevées ; ratio ASAT/ALAT > 1 évoque cirrhose                            |
+| GGT, PAL                                | Cholestase associée possible                                             |
+| Bilirubine totale                       | Élevée si cholestase ou insuffisance hépatocellulaire                    |
+| **TP (taux de prothrombine)**           | Abaissé si insuffisance hépatocellulaire                                 |
+| Albumine                                | Abaissée si cirrhose évoluée                                             |
+| **NFS-plaquettes**                      | Thrombopénie (hypersplénisme) évoque cirrhose                            |
+| **Charge virale VHC (ARN)**             | Quantification avant traitement (copies/mL ou UI/mL)                     |
+| Génotypage VHC                          | Utile si échec AAD ou populations spéciales                              |
+| **Cryoglobuline**                       | Prélèvement à 37°C ; recherche si signes évocateurs                      |
+| Facteur rhumatoïde + complément (C3/C4) | Si CM : FR élevé + C4 bas                                                |
+| Glycémie, HbA1c                         | Dépistage diabète associé                                                |
+| **Ag HBs, Ac anti-HBc, Ac anti-HBs**    | Co-infection VHB obligatoire à rechercher                                |
+| **Sérologie VIH**                       | Co-infection VIH obligatoire à rechercher                                |
+| **ECG**                                 | Recommandé avant AAD (HAS 2024) — recherche trouble du rythme/conduction |
 
 ### C. Évaluation de la fibrose hépatique (non invasive en 1ère intention)
 
