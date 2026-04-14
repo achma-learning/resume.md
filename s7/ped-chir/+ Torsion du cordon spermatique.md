@@ -8,7 +8,7 @@ enseignant: "Pr. Kamili"
 semestre: S8
 annee: 2025-2026
 audio: "[[03 - 03- TORSION DU CORDON SPERMATIQUE - Pr. KAMILI.mp3]]"
-source_pdf: "[[]]"
+source_pdf: "[[Anomalies de Migration Testiculaire(1).pptx.pdf]]"
 statut: brouillon
 revision: 0
 prochaine_revision: 2026-04-21
@@ -23,7 +23,7 @@ aliases:
 cssclasses:
   - medical-note
 created: "2026-04-14T10:00"
-modified: "2026-04-14T10:00"
+modified: "2026-04-14T12:00"
 ---
 
 # Torsion du Cordon Spermatique
@@ -31,7 +31,7 @@ modified: "2026-04-14T10:00"
 > [!info] Métadonnées
 > **Module** : [[Maladies de l'enfant]] · **Enseignant** : Pr. Kamili
 > **Date** : 2026-04-14 · **Semestre** : S8
-> **Audio** : [[03 - 03- TORSION DU CORDON SPERMATIQUE - Pr. KAMILI.mp3]] · **Diapos** : [[]]
+> **Audio** : [[03 - 03- TORSION DU CORDON SPERMATIQUE - Pr. KAMILI.mp3]] · **Diapos** : [[Anomalies de Migration Testiculaire(1).pptx.pdf]]
 > **Statut** : 🔴 Brouillon → 🟡 Révisé → 🟢 Maîtrisé
 
 ---
@@ -54,16 +54,27 @@ modified: "2026-04-14T10:00"
 
 ## II. Rappels
 
-### A. Anatomique
+### A. Embryologique – Migration testiculaire *(source : PDF Anomalies de Migration)*
+
+- **Phase abdominale** (10–15 SA) : régression du ligament suspenseur crânial sous l'effet de la testostérone.
+- **Phase inguino-scrotale** (25–35 SA) : le **gubernaculum testis** (GT) tracte le testicule dans le scrotum. Son insertion ectopique peut conduire à une **ectopie testiculaire**.
+- **Fermeture du canal péritonéo-vaginal (CPV)** : normalement avant la naissance. Sa persistance (50–60 % des testicules non descendus) favorise les anomalies de fixation et la torsion sur testicule ectopique.
+- **Migration post-natale** : possible jusqu'à 4–6 mois (pic de testostérone néonatal). Au-delà, un testicule non descendu ne migrera plus spontanément.
+
+### B. Anatomique
 
 - **Testicule** : Enveloppé par l'albuginée et la vaginale (feuillet viscéral et pariétal).
 - **Cordon spermatique** : Contient l'artère testiculaire, les veines spermatiques, le canal déférent, les vaisseaux déférentiels.
 - **Moyens de fixité** :
   - Ligament scrotal (gubernaculum testis).
   - Mésorchium (accolement de l'épididyme à la vaginale).
-  - Anomalies favorisant la torsion : absence de ligament scrotal, mésorchium incomplet, déconnexion épididymo-testiculaire, insertion haute de la vaginale sur le cordon (« anomalie en battant de cloche »).
+  - **Anomalies favorisant la torsion** :
+    - Absence de ligament scrotal.
+    - Mésorchium incomplet.
+    - **Déconnexion épididymo-testiculaire** (fréquente en cas de cryptorchidie).
+    - **Insertion haute de la vaginale** sur le cordon → testicule « en battant de cloche » (torsion intravaginale).
 
-### B. Physiologique
+### C. Physiologique
 
 - La torsion entraîne :
   1. **Occlusion veineuse** → œdème, congestion, hémorragie.
@@ -77,7 +88,7 @@ modified: "2026-04-14T10:00"
 |-----------|--------|
 | **Âge** | Deux pics : **période néonatale** et **période péripubertaire** (12–18 ans) |
 | **Sex-ratio** | Exclusivement masculin |
-| **Facteurs de risque** | Anomalies anatomiques de fixation (bilatérales dans 50 % des cas) |
+| **Facteurs de risque** | Anomalies anatomiques de fixation (bilatérales dans 50 % des cas) ; **testicule non descendu congénital** (risque accru de torsion) |
 | **Fréquence** | 1/4000 hommes de moins de 25 ans |
 
 ---
@@ -90,7 +101,10 @@ modified: "2026-04-14T10:00"
 |-----------|-----------|-----------|
 | **Torsion intravaginale** (la plus fréquente) | Anomalie d'insertion de la vaginale (haute sur le cordon) | Testicule "en battant de cloche", mobile dans la vaginale → torsion aiguë |
 | **Torsion supravaginale** (nouveau-né) | Absence de fixation du cordon au scrotum | Torsion de tout le cordon au-dessus de la vaginale |
-| **Torsion sur testicule ectopique** | Testicule non descendu (inguinal ou abdominal) | Torsion du pédicule en position ectopique |
+| **Torsion sur testicule ectopique** | **Testicule non descendu** (inguinal ou abdominal) | Absence de ligament scrotal, CPV perméable, pédicule long → torsion facilitée |
+
+> [!warning] Piège diagnostique
+> Un testicule non descendu (cryptorchidie) expose à un risque accru de torsion. Devant une **douleur inguinale aiguë + bourse vide homolatérale**, évoquer une torsion sur testicule ectopique jusqu'à preuve du contraire.
 
 ### B. Physiopathologie
 
@@ -165,10 +179,12 @@ modified: "2026-04-14T10:00"
 | **Hernie inguinale étranglée** | Tuméfaction inguinale irréductible, syndrome occlusif. | Testicule palpé dans la bourse. |
 | **Traumatisme scrotal** | Contexte évident. | Peut révéler ou aggraver une torsion sous-jacente. |
 | **Œdème scrotal idiopathique** | Enfant jeune, érythème scrotal bilatéral. | Testicules indolores à la palpation. |
+| **Torsion sur testicule ectopique** | Douleur inguinale + **bourse vide** homolatérale. | Nécessite exploration chirurgicale pour confirmation. |
 
 ### C. Diagnostic étiologique
 
 - Anomalie anatomique bilatérale fréquente → impose une **orchidopexie controlatérale** systématique.
+- **Testicule non descendu** : facteur de risque de torsion ; doit être recherché à l'examen clinique.
 
 ### D. Diagnostic de gravité / Complications
 
@@ -186,9 +202,10 @@ modified: "2026-04-14T10:00"
   - **Torsion supravaginale**.
   - Lésions souvent irréversibles → orchidectomie néonatale.
 - **Torsion sur testicule ectopique** :
-  - Douleur inguinale ou abdominale basse + **bourse vide homolatérale**.
-  - Masse inguinale douloureuse.
-  - Traitement : détorsion + orchidopexie.
+  - **Douleur inguinale ou abdominale basse + bourse vide homolatérale**.
+  - Masse inguinale douloureuse, inflammatoire.
+  - **Diagnostic clinique** ; l'échographie n'est pas fiable pour localiser un testicule abdominal.
+  - Traitement : détorsion + orchidopexie (ou orchidectomie si nécrose).
 - **Torsion intermittente** : Douleurs scrotales récurrentes spontanément résolutives → indication d'orchidopexie bilatérale prophylactique.
 
 ---
@@ -250,7 +267,8 @@ modified: "2026-04-14T10:00"
 > 2. **Aucun examen complémentaire ne doit retarder l'exploration chirurgicale.**
 > 3. **L'intervention doit avoir lieu dans les 6 heures** pour espérer sauver le testicule.
 > 4. **L'orchidopexie controlatérale est systématique** (anomalie bilatérale dans 50 % des cas).
-> 5. **Mieux vaut une exploration blanche qu'un testicule perdu.**
+> 5. **Devant une douleur inguinale + bourse vide, évoquer une torsion sur testicule ectopique.**
+> 6. **Mieux vaut une exploration blanche qu'un testicule perdu.**
 
 ---
 
@@ -261,6 +279,7 @@ modified: "2026-04-14T10:00"
 > - **Horloge** : < 6 h = sauvetage ; > 12 h = nécrose.
 > - **Traitement** : Chirurgie immédiate + orchidopexie bilatérale.
 > - **Piège** : Torsion sur testicule ectopique → bourse vide + douleur inguinale.
+> - **Rappel PDF** : CPV perméable et anomalies de fixation fréquentes en cas de cryptorchidie.
 
 ---
 
@@ -275,6 +294,9 @@ modified: "2026-04-14T10:00"
 >
 > **Q3** : Pourquoi faut-il systématiquement fixer le testicule controlatéral ?
 > **R3** : Parce que l'anomalie anatomique favorisant la torsion est bilatérale dans 50 % des cas.
+>
+> **Q4** : Quelle est la particularité de la torsion sur testicule ectopique ?
+> **R4** : Bourse vide homolatérale, douleur inguinale ou abdominale, diagnostic clinique (échographie peu fiable).
 
 > [!example] Cas clinique rapide
 > Adolescent de 15 ans réveillé à 6h par une douleur scrotale droite intense. Examen : bourse droite inflammatoire, testicule ascensionné, réflexe crémastérien droit aboli. Signe de Prehn négatif. Que faites-vous ?
@@ -290,7 +312,7 @@ modified: "2026-04-14T10:00"
 
 - **Cours précédent** : [[Sténose hypertrophique du pylore]]
 - **Cours suivant** : [[Pathologie du canal péritonéo-vaginal]]
-- **Maladies** : [[Cryptorchidie]], [[Hernie inguinale étranglée]]
+- **Maladies** : [[Cryptorchidie]], [[Hernie inguinale étranglée]], [[Anomalies de migration testiculaire]]
 - **Médicaments** : [[Antalgiques]]
 - **Référentiel** : [[Pedia-Univ - Pathologies inguino-scrotales]]
 
