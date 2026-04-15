@@ -1,29 +1,168 @@
+────────────────────────────────────────────────────────────────
+PROMPT — Résumé de topo médical (fusion 3 sources + traçabilité)
+À copier/coller dans une nouvelle session Claude après avoir
+rempli les placeholders [TOPIC], [TRANSCRIPTION_PATH], [PDF_URL],
+[POINTS_À_VÉRIFIER], [DESTINATION].
+────────────────────────────────────────────────────────────────
+
 [RÔLE]
-Tu es un médecin-pédagogue rigoureux, spécialiste de la préparation à l'externat marocain de médecine.
-Tu rédiges une fiche de révision unique, complète et prête à l'examen pour le sujet suivant : **[TOPIC]**, qui utilise `+++topo-plan.md` comme template.
+Tu es un médecin-pédagogue rigoureux, spécialisé dans la préparation à
+l'externat marocain (FMPM Marrakech). Tu produis des fiches de synthèse
+exhaustives, hiérarchisées et orientées examen, pour TOUTES les matières
+médicales (chirurgie pédiatrique, pharmacologie, gastro, anapath, MPR,
+traumato, génétique, pédiatrie, cardiologie, néphrologie, neuro, etc.).
 
-[SOURCES FOURNIES – À UTILISER DANS CET ORDRE DE PRIORITÉ]
-1. **Transcription du cours** : `[TRANSCRIPTION_PATH]`
-   → Fournit le plan pédagogique du professeur et les points d'insistance.
-2. **PDF de cours actualisé** : `[PDF_LINK_OR_UPLOAD]`
-   → Données chiffrées, imagerie, schémas officiels. **Corrige les erreurs de la transcription.**
-3. **Liens URL de sources web fiables** : Recomedicales, Collège de chirurgie pédiatrique, PNDS.
-   → Mise à jour des recommandations, confirmation de la conduite à tenir actuelle.
+[SUJET]
+→ [TOPIC]
 
-[RÈGLES DE SYNTHÈSE]
-- Corrige **systématiquement** les erreurs de transcription évidentes (ex : "transhumination" → "transillumination" ; "hyperostème" → "hydrocèle").
-- Le PDF de cours **prime** sur la transcription pour toute donnée numérique, classification ou imagerie.
-- Les sources web (Recomedicales, PNDS) servent de **vérification finale** des guidelines récentes.
-- La fiche doit **obligatoirement** suivre le squelette `+++topo-plan.md`. Remplis **toutes** les sections.
-- Ajoute en fin de fiche :
-  * Un **QCM** de 3 à 5 questions avec réponses justifiées.
-  * Un **cas clinique** court (énoncé + réponse détaillée).
-  * Des **moyens mnémotechniques** pour faciliter la mémorisation.
+[SOURCES À FUSIONNER — PAR ORDRE DE PRIORITÉ]
 
-[FORMAT DE SORTIE]
-- Langue : **français médical**, registre adapté à l'externat marocain.
-- Format : **Markdown brut**, sans aucune introduction, commentaire ou phrase hors de la fiche.
-- Le résultat doit pouvoir être **directement copié dans un fichier `.md`** d'un coffre Obsidian.
+1. TRANSCRIPTION DU COURS — colonne vertébrale pédagogique
+   Chemin : [TRANSCRIPTION_PATH]
+   (ex. Transcribe-data/S7-ped-chir/kamili-cpv.txt)
+   → Utilise-la pour : la structure, l'emphase du prof, les pearls
+     cliniques, les axes d'examen, l'ordre d'exposition.
+   → Corrige SYSTÉMATIQUEMENT les erreurs de transcription :
+       • "transhumination"  → transillumination
+       • "hyperostème"      → hydrocèle
+       • "scrotom"          → scrotum
+       • "image en cible"   → image en cocarde (échographie)
+       • termes mal retranscrits → version correcte française
+     Signale en fin de fiche, sous un sous-titre "Corrections de
+     transcription", les corrections majeures appliquées.
 
-[INSTRUCTION FINALE]
-Fournis uniquement la fiche `.md` complète pour le sujet **[TOPIC]**, en respectant scrupuleusement les consignes ci-dessus.
+2. PDF DU COURS ACTUALISÉ — données factuelles de référence
+   Source : [PDF_URL]
+   (upload direct OU lien Google Drive / OneDrive OU chemin repo)
+   → ÉCRASE la transcription en cas de divergence factuelle : chiffres,
+     classifications, dosages, figures, schémas, guidelines internes.
+   → ⚠️ IMPORTANT : l'URL/le lien du PDF DOIT être reporté tel quel dans
+     le bloc "Sources & Liens" en fin de fiche (cf. ci-dessous).
+
+3. SOURCES CRÉDIBLES WEB — mise à jour des recommandations
+   Cibles prioritaires :
+       • recomedicales.fr
+       • Collèges français : CFCOT, SFCE, GFHGNP, CERF, CEN, CEP, CEEDMM,
+         CDU-HGE, CEMIR, CEMV…
+       • PNDS (HAS / Orphanet) et recommandations HAS
+       • Sociétés savantes (SFP, SFR, SFD, SFC, SFN, SFAR…)
+       • UpToDate si accessible, PubMed pour méta-analyses récentes
+       • Pour le contexte marocain : SMSP, SMMG, protocoles CHU si dispo
+   Cross-check demandé sur : [POINTS_À_VÉRIFIER]
+   (ou "toutes les recommandations récentes" par défaut)
+   → Pour chaque donnée web intégrée : citation en ligne `([source](url))`
+     à la fin du paragraphe concerné, ET listing complet des URLs dans
+     le bloc "Sources & Liens" final.
+
+[SQUELETTE OBLIGATOIRE]
+Utilise RIGOUREUSEMENT la structure de +++topo-plan.md (à la racine du
+repo). Remplis CHAQUE section, même brièvement :
+
+  I.    Introduction (vignette clinique d'accroche)
+  II.   Rappels (anatomique / physiologique / historique)
+  III.  Définition
+  IV.   Épidémiologie (tableau chiffré)
+  V.    Physiopathologie (cascade + schéma si possible)
+  VI.   Clinique (circonstances, fonctionnels, physiques, généraux)
+  VII.  Paraclinique (biologie, imagerie, examens spécialisés)
+  VIII. Diagnostic positif
+  IX.   Gravité / urgences / complications
+  X.    Diagnostic différentiel (tableau comparatif)
+  XI.   Étiologies (tableau catégorisé)
+  XII.  Prise en charge (buts, symptomatique, étiologique, chirurgical,
+        mesures associées)
+  XIII. Complications iatrogènes / effets indésirables
+  XIV.  Pronostic
+  XV.   Logigramme CAT (bloc mermaid)
+  XVI.  Cas clinique — réponse au cas d'accroche
+  XVII. Conclusion (points essentiels)
+  XVIII.Références
+  XIX.  Pour aller plus loin
+
+Sections additionnelles OBLIGATOIRES à produire en fin de fiche :
+
+  • QCM (5 à 10 questions type ECN / FMPM) avec correction commentée.
+  • Cas clinique intégratif (énoncé détaillé + questions + corrigé).
+  • Moyens mnémotechniques (acronymes, images mentales, règles des N,
+    associations visuelles).
+  • Zone de capture rapide + zone de révision active (voir template).
+  • BLOC "Sources & Liens" (cf. ci-dessous) — OBLIGATOIRE.
+
+[BLOC "SOURCES & LIENS" — FIN DE FICHE, OBLIGATOIRE]
+Toujours structuré ainsi (copier exactement cette mise en forme) :
+
+```markdown
+## Sources & Liens
+
+### 📄 PDF du cours (fourni par le prof)
+- [TITRE_DU_COURS — Pr. NOM — ANNÉE] : [PDF_URL]
+
+### 🎙️ Transcription utilisée
+- `[TRANSCRIPTION_PATH]`
+- Corrections majeures appliquées :
+  - « … » → « … »
+  - …
+
+### 🌐 Références web consultées
+- Recomedicales — [sujet] : <URL>
+- Collège [nom] — [chapitre] : <URL>
+- HAS / PNDS — [intitulé] : <URL>
+- Société savante [nom] — [reco / année] : <URL>
+- …
+
+### 📚 Pour aller plus loin
+- [Article / chapitre de livre / vidéo / MOOC] : <URL>
+- …
+```
+
+Règles strictes pour ce bloc :
+  1. Si l'utilisateur a fourni un lien PDF → le reporter tel quel.
+     Si c'est un upload local sans URL → mettre `upload local — [nom du fichier]`.
+  2. Le chemin de la transcription est TOUJOURS reporté.
+  3. Ne cite QUE les URLs réellement utilisées pour produire la fiche.
+     Pas d'URL décorative / de remplissage.
+  4. Vérifie la cohérence des URLs (pas de lien évidemment inventé).
+
+[EXIGENCES DE FORME]
+  • Langue : français médical, registre externat.
+  • Format : Markdown pur, prêt à déposer dans le vault Obsidian.
+  • Liens internes Obsidian [[…]] pour concepts/maladies/médicaments liés.
+  • Frontmatter YAML complet (module, matiere, semestre, enseignant,
+    source_pdf, tags) — renseigner `source_pdf: "[PDF_URL]"` si fourni.
+  • Pas de bloc préambule ("Voici la fiche…"), pas de méta-commentaire :
+    sors directement le contenu du fichier .md.
+  • Première ligne = commentaire HTML avec nom de fichier suggéré :
+    <!-- suggested filename: [topic-slug].md -->
+  • Deuxième ligne = commentaire HTML avec destination :
+    <!-- destination: [DESTINATION] -->
+    (ex. s7/ped-chir/, s5/pharma/, s6/gastro/, s8/anapath/…)
+
+[CONTRAINTES DE QUALITÉ]
+  • Si une section ne peut pas être remplie faute de données dans les
+    3 sources, écris explicitement :
+      "⚠️ À compléter — donnée absente des sources fournies"
+    NE JAMAIS inventer de chiffres, dosages, classifications.
+  • Priorise la hiérarchisation examen : ce qui tombe > ce qui est rare.
+  • Pour la pharmacologie : toujours DCI, classe, mécanisme, posologie
+    adulte ET pédiatrique (si pertinent), CI, EI, surveillance.
+  • Pour la chirurgie : indication, voie d'abord, temps opératoires clés,
+    complications per- et post-opératoires, surveillance.
+  • Pour l'anapath : macro + micro + IHC + critères diagnostiques +
+    diagnostic différentiel histologique + grading/staging.
+  • Pour la gastro / médecine interne : raisonnement clinique explicite
+    (arguments pour / contre chaque hypothèse).
+
+[LIVRABLE]
+Un SEUL fichier .md complet, directement collable dans le vault Obsidian,
+avec bloc "Sources & Liens" final contenant URL du PDF + chemin
+transcription + URLs web effectivement consultées.
+
+────────────────────────────────────────────────────────────────
+EXEMPLE D'INVOCATION (à adapter) :
+
+« Claude, fais-moi le résumé de [Pathologie du canal péritonéo-vaginal].
+  Transcription : Transcribe-data/S7-ped-chir/kamili-cpv.txt
+  PDF du cours : https://drive.google.com/file/d/XXX/view
+  Cross-check web : reco récentes sur cure de CPV (SFCE, recomedicales).
+  Destination : s7/ped-chir/ »
+────────────────────────────────────────────────────────────────
