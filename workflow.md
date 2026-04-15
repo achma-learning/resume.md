@@ -1,68 +1,88 @@
-# Workflow de synthèse – Résumés de cours prêts pour l'externat marocain
+# Workflow — Résumés de topos médicaux (fusion 3 sources)
 
 ## Objectif
-Produire pour chaque sujet de chirurgie pédiatrique (S7) une fiche `.md` complète, rigoureuse et prête à être intégrée dans un coffre Obsidian.
-La fiche doit servir de support d'étude efficace pour l'examen (QCM, cas cliniques, moyens mnémotechniques) et être basée sur une fusion fiable de trois sources :
 
-1. **Transcriptions des cours du professeur** (`Transcribe-data/`) → squelette pédagogique officiel.
-2. **PDFs de cours actualisés** (uploads locaux ou Google Drive) → données et figures corrigées.
-3. **Sources web fiables** (recomedicales.fr, Collèges, PNDS) → recommandations actuelles.
+Produire, pour chaque sujet d'examen, un fichier `.md` prêt à l'emploi dans le vault Obsidian, structuré selon le squelette [`+++topo-plan.md`](./+++topo-plan.md) et exploitable pour la révision active (QCM, cas clinique, moyens mnémotechniques).
 
-Ce workflow a été validé sur la fiche *Sténose hypertrophique du pylore* et doit être répliqué pour les autres sujets.
+Ce workflow s'applique à **toutes les matières de l'externat FMPM Marrakech** — chirurgie pédiatrique, pharmacologie, gastro-entérologie, anapath, MPR, traumatologie, génétique, etc. — et non au seul module S7.
 
-## Sources – Ordre de priorité
-Lors de la synthèse, les sources sont utilisées dans l'ordre suivant :
+## Sources (par ordre de priorité)
 
-| Priorité | Source | Rôle |
-|----------|--------|------|
-| 1 | **Transcription du professeur** | Structure du cours, plan, points d'insistance de l'enseignant. |
-| 2 | **PDF de cours actualisé** | Données chiffrées, imagerie, schémas ; **corrige** les éventuelles erreurs de transcription. |
-| 3 | **Sources web (recomedicales, Collège, PNDS)** | Mise à jour des recommandations, chiffres récents, confirmation de la conduite à tenir. |
+1. **Transcription du cours** (`Transcribe-data/S[n]-[matière]/*.txt`)
+   → colonne vertébrale pédagogique : logique du prof, pearls cliniques, axes d'examen.
+   → **Attention** : erreurs de transcription fréquentes (ex. *transhumination* → transillumination, *hyperostème* → hydrocèle, *scrotom* → scrotum). À corriger systématiquement.
 
-## Phase 1 – Un sujet par session
-- **Ne pas traiter plusieurs sujets à la fois**.
-- Chaque session Claude est dédiée à **un seul sujet** de chirurgie pédiatrique.
-- Cela garantit une synthèse profonde et évite les confusions.
-- Commencer par les sujets à haut rendement pour l'examen ou ceux dont la transcription est la plus complète.
+2. **PDF mis à jour** (upload local ou lien Google Drive / URL)
+   → données corrigées, figures, chiffres, guidelines actuelles.
+   → **écrase** la transcription en cas de divergence factuelle.
+   → l'URL du PDF fournie par l'utilisateur **doit être reportée en bas de la fiche** dans la section *Sources*.
 
-## Phase 2 – Alimentation des sources dans l'ordre
-Au début de la session, fournir à Claude **dans cet ordre précis** :
+3. **Sources crédibles web** (recomedicales.fr, Collèges français — CFCOT, SFCE, GFHGNP, SNFGE, CEP, etc. —, PNDS, HAS, sociétés savantes, UpToDate si accessible)
+   → couche d'arbitrage : confirme les recommandations actuelles quand (1) et (2) divergent ou datent.
+   → **chaque URL consultée est citée en bas de la fiche** dans la section *Sources*.
 
-1. **Le chemin du fichier de transcription** (ex : `Transcribe-data/Invagination_intestinale_aiguë_Kamili.txt`).
-2. **Le PDF actualisé** (uploadé directement dans l'interface ou via un lien Google Drive).
-3. **Les sources web** (URLs de Recomedicales, Collège concerné, PNDS).
+## Règle de fusion
 
-L'instruction donnée à Claude doit lui rappeler de **lire et intégrer les sources selon les règles de priorité**.
+```
+transcription  →  structure + emphase examen
+     +
+PDF mis à jour →  override des données factuelles
+     +
+web crédible   →  mise à jour des recommandations
+     =
+fichier .md final + bloc "Sources" (liens PDF + URLs web)
+```
 
-## Phase 3 – Règles de synthèse
-Claude doit appliquer les règles suivantes lors de la rédaction de la fiche `.md` :
+## Workflow par session
 
-- **Corriger les erreurs de transcription évidentes**
-  *Exemples :* « transhumination » → *transillumination* ; « hyperostème » → *hydrocèle* ; « échographie montre une cible » → *image en cocarde*.
-- **Le PDF de cours prime sur la transcription** pour les données chiffrées et les figures.
-- **Les sources web (Recomedicales, PNDS) servent de vérification finale** pour les recommandations thérapeutiques récentes.
-- **Le squelette obligatoire est `+++topo-plan.md`** : chaque section doit être remplie sans exception (Introduction, Épidémiologie, Physiopathologie, Diagnostic, Traitement, etc.).
-- **Ajouter systématiquement** :
-  - Un **QCM** avec 3 à 5 questions typiques de l'externat.
-  - Un **cas clinique** court avec question et réponse détaillée.
-  - Des **moyens mnémotechniques** pour retenir les points clés.
+### Phase 1 — Un seul topo par session
+Pas de batch. Chaque sujet mérite une synthèse focalisée. Commencer par les topos à haut rendement d'examen ou ceux dont la transcription est la plus complète.
 
-## Phase 4 – Relecture et itération
-- Après réception de la fiche, **vérifier visuellement** les corrections apportées aux erreurs de transcription.
-- Si nécessaire, relancer Claude avec une instruction ciblée (ex : « Précise la CAT selon le PNDS 2023 »).
-- Une fois satisfait, la fiche est **stockée dans le dossier `s7/ped-chir/`** et prête pour l'import dans Obsidian.
+### Phase 2 — Fournir les sources à Claude, dans cet ordre
+1. Indiquer le chemin de la transcription (`Transcribe-data/...`) ou l'uploader.
+2. Uploader le PDF mis à jour **ou coller son URL** (Google Drive, Drive partagé, lien institutionnel). Toute URL fournie sera conservée et inscrite en bas de la fiche.
+3. Préciser si un cross-check web est demandé, et sur quels points (ex. *« dernière reco SFCE sur tumeurs osseuses »*).
 
-## Lancement rapide d'une session
-Pour démarrer une nouvelle fiche, utiliser le prompt suivant (le template complet se trouve dans `prompt-resume.txt`) :
+### Phase 3 — Synthèse par Claude
+- Extraction depuis la transcription avec correction des coquilles évidentes.
+- Intégration / override via le PDF.
+- Cross-reference web sur les points signalés.
+- Remplissage **intégral** des sections du `+++topo-plan.md`.
+- Ajout systématique : QCM, cas clinique, moyens mnémotechniques.
+- **Bloc *Sources* en bas de la fiche** listant, avec URL cliquable :
+  - le PDF de cours (si URL fournie),
+  - chaque source web consultée (recomedicales, Collège, PNDS, HAS, etc.),
+  - le chemin de la transcription utilisée.
 
-> *Claude, applique le workflow de synthèse pour le sujet [NOM_DU_SUJET]. Utilise la transcription [CHEMIN], le PDF fourni et les sources web [URLS]. Rédige la fiche `.md` complète selon `+++topo-plan.md`, en corrigeant les erreurs de transcription et en ajoutant QCM, cas clinique et mnémotechniques. Langue : français médical de l'externat marocain. Aucun commentaire hors fiche.*
+### Phase 4 — Revue et itération
+L'utilisateur relit, signale manques / erreurs, Claude corrige. Itérer jusqu'à validation, puis déposer la fiche dans le vault.
 
-## Emplacement des fiches produites
-- **Dossier cible** : `s7/ped-chir/`
-- **Nom du fichier** : `[Nom_du_sujet].md` (ex : `Invagination_intestinale_aiguë.md`)
+## Lancer une session
 
-## Suivi des sujets
-Le suivi des fiches restant à produire est assuré via une **GitHub Issue de checklist** dans le dépôt `achma-learning/resume.md`.
+Copier le contenu de [`prompt-resume.txt`](./prompt-resume.txt), remplir les placeholders `[TOPIC]`, `[TRANSCRIPTION_PATH]`, `[PDF_URL_OR_UPLOAD]`, `[WEB_SOURCES]`, puis coller dans une nouvelle session.
+
+Exemple rapide :
+
+> « Claude, fais-moi le résumé de **[Pathologie du CPV]**. Voici le PDF mis à jour (lien : `https://drive.google.com/...`). Utilise la transcription `Transcribe-data/S7-ped-chir/kamili-cpv.txt` + sources crédibles (recomedicales.fr, CFCOT) pour les données actualisées. »
+
+## Destination du fichier produit
+
+Selon le semestre et la matière :
+- Chirurgie pédiatrique S7 → `s7/ped-chir/`
+- Pharmacologie S5 → `s5/pharma/`
+- Gastro-entérologie S6 → `s6/gastro/`
+- Anapath / MPR / Traumatologie / Génétique S8 → `s8/<sous-dossier>/`
+- Autres matières → suivre la convention `s[n]/<matière>/`.
+
+## Nommage
+
+- Un fichier `.md` par topo, nommé `[Nom du sujet].md` (diacritiques autorisés).
+- La première ligne utile du fichier peut contenir un commentaire HTML :
+  `<!-- suggested filename: [topic-slug].md -->`
+
+## Suivi
+
+La liste des topos à traiter est suivie dans les **GitHub issues** du dépôt `achma-learning/resume.md` sous forme de checklist (une issue par module, ex. *pediatric surgery S7*). Chaque fiche validée est cochée.
 
 ---
-*Workflow documenté le 15 avril 2026 – validé sur SHP.*
+*Workflow — version élargie, 15 avril 2026.*
