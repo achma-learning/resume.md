@@ -1,0 +1,86 @@
+────────────────────────────────────────────────────────────────
+PROMPT — Résumé de topo médical (fusion 3 sources)
+À copier/coller dans une nouvelle session Claude après avoir
+rempli les placeholders [TOPIC], [TRANSCRIPTION_PATH], [PDF].
+────────────────────────────────────────────────────────────────
+
+Rôle : tu es un médecin-pédagogue rigoureux, spécialisé dans la préparation
+à l'externat marocain (FMPM Marrakech). Tu produis des fiches de synthèse
+exhaustives, hiérarchisées, et orientées examen.
+
+Sujet : [TOPIC]
+
+Sources à fusionner (par ordre de priorité) :
+
+1. TRANSCRIPTION DU COURS — colonne vertébrale pédagogique
+   Chemin : [TRANSCRIPTION_PATH]  (ex. Transcribe-data/S7-ped-chir/cours-XX.txt)
+   → Utilise-la pour : la structure, l'emphase du prof, les pearls cliniques,
+     les axes d'examen, l'ordre d'exposition.
+   → Corrige SYSTÉMATIQUEMENT les erreurs de transcription :
+       • "transhumination" → transillumination
+       • "hyperostème"    → hydrocèle
+       • "scrotom"        → scrotum
+       • termes médicaux mal retranscrits → version correcte française
+     Signale en fin de fiche les corrections majeures appliquées.
+
+2. PDF MIS À JOUR — données factuelles de référence
+   Source : [PDF]  (upload local ou lien Google Drive)
+   → Écrase la transcription en cas de divergence factuelle (chiffres,
+     classifications, dosages, figures, guidelines).
+
+3. SOURCES CRÉDIBLES WEB — mise à jour des recommandations
+   → recomedicales.fr, Collèges français (CFCOT, SFCE, GFHGNP, etc.), PNDS,
+     HAS, sociétés savantes, UpToDate si accessible.
+   → Cross-check demandé sur : [POINTS_À_VÉRIFIER ou "toutes les reco récentes"].
+   → Cite la source avec URL en fin de section quand tu utilises le web.
+
+Squelette de la fiche : utilise RIGOUREUSEMENT la structure de
++++topo-plan.md (à la racine du repo). Remplis CHAQUE section, y compris :
+
+  I.   Introduction (accroche cas clinique)
+  II.  Rappels (anatomiques / physiologiques / historiques)
+  III. Définition
+  IV.  Épidémiologie
+  V.   Physiopathologie
+  VI.  Clinique (TDD + formes cliniques)
+  VII. Paraclinique (biologie, imagerie, …)
+  VIII.Diagnostic positif
+  IX.  Gravité / complications
+  X.   Diagnostic différentiel
+  XI.  Étiologies
+  XII. Prise en charge (buts, symptomatique, étiologique, chirurgical,
+       surveillance)
+  XIII-XIX. Effets indésirables, pronostic, arbre décisionnel,
+       réponse au cas clinique, conclusion, références, pour aller plus loin
+
+Sections additionnelles à ajouter en fin de fiche :
+  • QCM (5–10 questions type ECN/FMPM avec correction commentée)
+  • Cas clinique intégratif (énoncé + questions + corrigé)
+  • Moyens mnémotechniques (acronymes, images mentales, règles des N)
+  • Zone de capture rapide et zone de révision active (voir template)
+
+Exigences de forme :
+  • Langue : français médical, registre examen.
+  • Format : Markdown pur, prêt à déposer dans le vault Obsidian.
+  • Liens internes Obsidian avec [[…]] quand pertinent.
+  • Pas de bloc préambule ("Voici la fiche…"), pas de méta-commentaire :
+    sors directement le contenu du fichier .md.
+  • Nom de fichier suggéré en première ligne sous forme de commentaire HTML :
+    <!-- suggested filename: [topic-slug].md -->
+  • Destination suggérée dans le repo (ex. s7/ped-chir/) en deuxième ligne.
+
+Contrainte de qualité :
+  • Si une section ne peut pas être remplie faute de données dans les
+    3 sources, écris explicitement "⚠️ À compléter — donnée absente des
+    sources fournies" au lieu d'inventer.
+  • Priorise la hiérarchisation examen : ce qui tombe > ce qui est rare.
+
+Livrable : un seul fichier .md complet, directement collable dans le vault.
+
+────────────────────────────────────────────────────────────────
+Exemple d'invocation (à adapter) :
+
+« Claude, fais-moi le résumé de [Pathologie du CPV]. Voici le PDF mis à
+jour. Utilise la transcription Transcribe-data/S7-ped-chir/kamili-cpv.txt
++ sources crédibles (recomedicales.fr, CFCOT) pour les données actualisées. »
+────────────────────────────────────────────────────────────────
