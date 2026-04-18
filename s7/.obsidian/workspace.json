@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ped-chir/= resume-infections-osteo-articulaires-enfant.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -186,6 +186,7 @@
   "active": "c35e2eac5a95a232",
   "lastOpenFiles": [
     "ped-chir/+ Infections ostéo-articulaires de l'enfant.md",
+    "ped-chir/= resume-infections-osteo-articulaires-enfant.md",
     "ped-chir/Proctologie pédiatrique.md",
     "ped-chir/Pied du nouveau-né — PBVE.md",
     "ped-chir/Pathologie du canal péritonéo-vaginal (CPV).md",
@@ -210,7 +211,6 @@
     "transcribe/ped-chir/06 - 01- LES INFECTIONS OSTÉO-ARTICULAIRES CHEZ L’ENFANT - Pr. AGHOUTANE.md",
     "transcribe/ped-chir/05 - 05- LES MASSES ABDOMINO PELVIENNES - Pr. KAMILI.md",
     "transcribe/ped-chir/04 - 04- PATHOLOGIE DU CANAL PÉRITONÉO-VAGINAL (CPV) - Pr. KAMILI.md",
-    "transcribe/ped-chir/03 - 03- TORSION DU CORDON SPERMATIQUE - Pr. KAMILI.md",
     "s7-notes 1/neuro/neurologie",
     "s7-notes 1/neuro/neurochir",
     "s7-notes 1/neuro",
