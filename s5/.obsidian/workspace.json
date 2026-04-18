@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pharma/32-Hypolipemiants.md",
+                "file": "pharma/38-Antalgiques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "32-Hypolipemiants"
+              "title": "38-Antalgiques"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pharma/32-Hypolipemiants.md",
+                "file": "pharma/38-Antalgiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 32-Hypolipemiants"
+              "title": "Backlinks for 38-Antalgiques"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pharma/32-Hypolipemiants.md",
+                "file": "pharma/38-Antalgiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 32-Hypolipemiants"
+              "title": "Outgoing links from 38-Antalgiques"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pharma/32-Hypolipemiants.md",
+                "file": "pharma/38-Antalgiques.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 32-Hypolipemiants"
+              "title": "Outline of 38-Antalgiques"
             }
           }
         ]
@@ -185,6 +185,13 @@
   },
   "active": "e0da397c6aeaba15",
   "lastOpenFiles": [
+    "pharma/34-Beta_bloquants.md",
+    "pharma/33-Inhibiteurs_calciques.md",
+    "pharma/31-Bloqueurs_SRAA.md",
+    "pharma/36-Laxatifs.md",
+    "pharma/37-Traitement_ulcere_gastroduodenal.md",
+    "pharma/38-Antalgiques.md",
+    "pharma/32-Hypolipemiants.md",
     "pharma/26-Bronchodilatateurs.md",
     "pharma/25-Antibacillaires.md",
     "pharma/22-Sulfamides.md",

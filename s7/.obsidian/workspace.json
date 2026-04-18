@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ped-chir/Maladie de Hirschsprung.md",
-                "mode": "source",
+                "file": "ped-chir/= resume-infections-osteo-articulaires-enfant.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maladie de Hirschsprung"
+              "title": "= resume-infections-osteo-articulaires-enfant"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "180d200b26e365c3",
@@ -185,14 +185,16 @@
   },
   "active": "c35e2eac5a95a232",
   "lastOpenFiles": [
-    "ped-chir/Les Boiteries de l'enfant.md",
-    "ped-chir/+ Torsion du cordon spermatique.md",
+    "ped-chir/+ Infections ostéo-articulaires de l'enfant.md",
     "ped-chir/Proctologie pédiatrique.md",
     "ped-chir/Pied du nouveau-né — PBVE.md",
     "ped-chir/Pathologie du canal péritonéo-vaginal (CPV).md",
+    "ped-chir/Maladie luxante de la hanche.md",
+    "ped-chir/Maladie de Hirschsprung.md",
+    "ped-chir/Les Boiteries de l'enfant.md",
+    "ped-chir/+ Torsion du cordon spermatique.md",
     "ped-chir/Masses abdomino-pelviennes de l'enfant.md",
     "ped-chir/Malformations congénitales chirurgicales.md",
-    "ped-chir/Maladie de Hirschsprung.md",
     "ped-chir/Infections ostéo-articulaires de l'enfant.md",
     "ped-chir/Déformation rachidienne — Scoliose.md",
     "ped-chir/+ Invagination intestinale.md",
@@ -209,8 +211,6 @@
     "transcribe/ped-chir/05 - 05- LES MASSES ABDOMINO PELVIENNES - Pr. KAMILI.md",
     "transcribe/ped-chir/04 - 04- PATHOLOGIE DU CANAL PÉRITONÉO-VAGINAL (CPV) - Pr. KAMILI.md",
     "transcribe/ped-chir/03 - 03- TORSION DU CORDON SPERMATIQUE - Pr. KAMILI.md",
-    "transcribe/ped-chir/02 - 02- Sténose hypertrophique du pylore - Pr. FOURAIJI.md",
-    "transcribe/ped-chir/01 - 01- INVAGINATION INTESTINALE AIGUË DU NOURRISSON - Pr. KAMILI.md",
     "s7-notes 1/neuro/neurologie",
     "s7-notes 1/neuro/neurochir",
     "s7-notes 1/neuro",
